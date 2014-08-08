@@ -70,6 +70,13 @@ let mapleader = ','
 nnoremap <leader>d :NERDTreeToggle<CR>
 nnoremap <leader>f :NERDTreeFind<CR>
 
+"
+" Tag list configuration
+"
+
+" Keybindings
+nnoremap <leader>p :TlistToggle<CR>
+
 " Open if no specific file was opened when
 " launching vim
 autocmd StdinReadPre * let s:std_in=1

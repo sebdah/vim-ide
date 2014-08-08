@@ -11,6 +11,7 @@
 * vim-airline status bars (with git support)
 * Tab completion using [supertab](https://github.com/ervandew/supertab)
 * Tab completion in search field ([SearchComplete](https://github.com/vim-scripts/SearchComplete))
+* Code tag list support ([Taglist](http://vim-taglist.sourceforge.net/index.html))
 
 Included colorschemes:
 
@@ -33,9 +34,11 @@ Supported languages:
 
 ## Requirements
 
+- `vim` (7.4 or above)
 - `git`
 - `ruby`
 - `gcc`
+- `ctags` (if you're on a Mac, install `ctags` via [Homebrew](http://brew.sh/))
 
 ## Usage
 
@@ -44,11 +47,12 @@ Supported languages:
 - `, + d` - Open the file browser side bar (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `, + f` - Show the current file in the file browser (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `, + t` - Quick file opening (via [Command T](https://github.com/wincent/Command-T))
+- `, + p` - Toggle tag list ([Taglist](http://vim-taglist.sourceforge.net/index.html))
 - `shift + T` - Open file in new tab from the file browser
 
 ### Git integration
 
-Git integration is provided via the [fugitive](https://github.com/tpope/vim-fugitive) plugin. All commands are expressed like this: `:G<git command>`. Below are some common examples.
+Git integration is provided via the [fugitive](https://github.com/tpope/vim-fugitive) plugin. Below are some common examples.
 
 **Status**
 
@@ -62,6 +66,10 @@ Git integration is provided via the [fugitive](https://github.com/tpope/vim-fugi
 **Diff**
 
     :Gdiff
+
+**Push**
+
+    :Gpush origin master
 
 ### CoffeeScript
 
