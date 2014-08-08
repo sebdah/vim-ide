@@ -27,5 +27,9 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 # Install all plugins
 vim -c "PluginInstall" -c "q" -c "q"
 
+# Build the C extension for Command T
+echo "Building the Command T C extension"
+cd ~/.vim/bundle/command-t/ruby/command-t && ruby extconf.rb && make
+
 echo "Done with the installation. Happy hacking!"
 exit 0
