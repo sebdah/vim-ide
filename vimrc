@@ -64,9 +64,18 @@ syntax on
 "
 let mapleader = ','
 
-" NERDTreed shortcuts
+"
+" NERDTree configuration
+"
+
+" NERDTree shortcuts
 nnoremap <leader>d :NERDTreeToggle<CR>
 nnoremap <leader>f :NERDTreeFind<CR>
+
+" Open if no specific file was opened when
+" launching vim
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 "
 " Filetype fixes
