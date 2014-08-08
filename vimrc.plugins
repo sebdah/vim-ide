@@ -2,6 +2,5 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 Plugin 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
 Plugin 'scrooloose/nerdtree'
-Plugin 'tomasr/molokai'
 Plugin 'tpope/vim-vividchalk'
 Plugin 'wincent/command-t'

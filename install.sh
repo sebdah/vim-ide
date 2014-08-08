@@ -13,13 +13,10 @@ mkdir ${backupDir}
 mv ~/.vim* ${backupDir}
 
 # Link vim files
-ln -s $(pwd)/vimrc ~/.vimrc
-ln -s $(pwd)/vimrc.plugins ~/.vimrc.plugins
-
+cp -r $(pwd)/vim ~/.vim
+cp $(pwd)/vimrc ~/.vimrc
+cp $(pwd)/vimrc.plugins ~/.vimrc.plugins
 cp $(pwd)/vimrc.local ~/.vimrc.local
-
-# Create local files
-mkdir ~/.vim
 touch ~/.vimrc.plugins.local
 
 # Install Vundle
