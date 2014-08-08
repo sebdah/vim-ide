@@ -33,9 +33,9 @@ Supported languages:
 Requirements
 ------------
 
-- git
-- ruby
-- gcc
+- `git`
+- `ruby`
+- `gcc`
 
 Shortcuts
 ---------
