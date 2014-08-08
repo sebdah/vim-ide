@@ -42,6 +42,7 @@ Supported languages:
 - `, + d` - Open the file browser side bar (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `, + f` - Show the current file in the file browser (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `, + t` - Quick file opening (via [Command T](https://github.com/wincent/Command-T))
+- `shift + T` - Open file in new tab from the file browser
 
 ### Git integration
 
