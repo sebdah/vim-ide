@@ -57,6 +57,8 @@ Supported languages:
 - `, + T` - Toggle tag list ([Taglist](http://vim-taglist.sourceforge.net/index.html))
 - `, + Ta` - Add file(s) to the tag list ([docs](http://vim-taglist.sourceforge.net/manual.html#:TlistAddFiles))
 - `, + Tar` - Add file(s) recursively to the tag list ([docs](http://vim-taglist.sourceforge.net/manual.html#:TlistAddFilesRecursive))
+- `, + Tc` - Close the tag list ([docs](http://vim-taglist.sourceforge.net/manual.html#:TlistClose))
+- `, + To` - Open and give focus the tag list ([docs](http://vim-taglist.sourceforge.net/manual.html#:TlistClose))
 
 ### Git integration
 
