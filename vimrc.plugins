@@ -1,3 +1,4 @@
+Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 Plugin 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
