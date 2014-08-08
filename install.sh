@@ -21,7 +21,7 @@ fi
 echo "Creating default .vim configuration files"
 ln -s ${DIR}/vimrc ~/.vimrc
 ln -s ${DIR}/vimrc.plugins ~/.vimrc.plugins
-cp -r ${DIR}/vim ~/.vim
+ln -s ${DIR}/vim ~/.vim
 touch ~/.vimrc.plugins.local
 
 if [ ! -e ~/.vimrc.local ] ; then
