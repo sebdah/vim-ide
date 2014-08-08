@@ -17,8 +17,15 @@
 * Show git changes in the gutter ([gitgutter](https://github.com/airblade/vim-gitgutter))
 * Support for Python virtualenvs ([vim-virtualenv](https://github.com/jmcantrell/vim-virtualenv))
 * Easy management of surrounding characters (eg. `echo "Hello world"`) using [surround](https://github.com/tpope/vim-surround)
+* Python support (version >=2.6 and >=3.2), including:
+   - rope
+   - pydoc
+   - pylint
+   - pep8
+   - flakes
+   - mccabe
 
-Included colorschemes:
+Included color schemes:
 
 - Tomorrow
 - Tomorrow-Night
@@ -28,14 +35,6 @@ Included colorschemes:
 - molokai
 - solarized (dark and light)
 - vividchalk
-
-Supported languages:
-
-* Markdown
-* Node.js
-  - JSHint
-* Python
-  - Pylint
 
 ## Requirements
 
