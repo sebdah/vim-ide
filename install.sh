@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 #
 # Installation script for Vinter
 #
@@ -17,14 +19,14 @@ fi
 
 # Link vim files
 echo "Creating default .vim configuration files"
-ln -s $(pwd)/vimrc ~/.vimrc
-ln -s $(pwd)/vimrc.plugins ~/.vimrc.plugins
-cp -r $(pwd)/vim ~/.vim
+ln -s ${DIR}/vimrc ~/.vimrc
+ln -s ${DIR}/vimrc.plugins ~/.vimrc.plugins
+cp -r ${DIR}/vim ~/.vim
 touch ~/.vimrc.plugins.local
 
 if [ ! -e ~/.vimrc.local ] ; then
     echo "Creating a skeleton ~./vimrc.local file"
-    cp $(pwd)/vimrc.local ~/.vimrc.local
+    cp ${DIR}/vimrc.local ~/.vimrc.local
 fi
 
 # Install Vundle
