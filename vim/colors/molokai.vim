@@ -1,1 +1,1 @@
-../bundle/molokai/colors/molokai.vim
+../../molokai/colors/molokai.vim
