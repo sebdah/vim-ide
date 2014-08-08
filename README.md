@@ -5,9 +5,9 @@ Features
 --------
 
 * Code completion
-* Command T for project file search
+* [Command T](https://github.com/wincent/Command-T) for project file search
 * Many colorschemes
-* NERDTree file browsing
+* [NERDTree](https://github.com/scrooloose/nerdtree) file browsing
 * Clear trailing whitespace
 
 Included colorschemes:
@@ -35,4 +35,11 @@ Requirements
 - git
 - ruby
 - gcc
+
+Shortcuts
+---------
+
+- `, + d` - Open the file browser side bar (via [NERDTree](https://github.com/scrooloose/nerdtree))
+- `, + f` - Show the current file in the file browser (via [NERDTree](https://github.com/scrooloose/nerdtree))
+- `, + t` - Quick file opening (via [Command T](https://github.com/wincent/Command-T))
 
