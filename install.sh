@@ -11,13 +11,21 @@ backupDir="${HOME}/.vinter-backup.$(date +%Y%m%dT%H%M%S)"
 echo "Backing up all your old vim files to ${backupDir}"
 mkdir ${backupDir}
 mv ~/.vim* ${backupDir}
+if [ -e ${backupDir}/.vimrc.local ] ; then
+    cp ${backupDir}/.vimrc.local ~/.vimrc.local
+fi
 
 # Link vim files
+echo "Creating default .vim configuration files"
 ln -s $(pwd)/vimrc ~/.vimrc
 ln -s $(pwd)/vimrc.plugins ~/.vimrc.plugins
 cp -r $(pwd)/vim ~/.vim
-cp $(pwd)/vimrc.local ~/.vimrc.local
 touch ~/.vimrc.plugins.local
+
+if [ ! -e ~/.vimrc.local ] ; then
+    echo "Creating a skeleton ~./vimrc.local file"
+    cp $(pwd)/vimrc.local ~/.vimrc.local
+fi
 
 # Install Vundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
