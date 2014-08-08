@@ -12,3 +12,7 @@ colorscheme molokai
 "
 "let g:solarized_termcolors=256
 "colorscheme solarized
+
+" Remove trailing white spaces on :w
+autocmd BufWritePre * :%s/\s\+$//e
+
