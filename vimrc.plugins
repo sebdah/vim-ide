@@ -3,3 +3,4 @@ Plugin 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
 Plugin 'tomasr/molokai'
 Plugin 'tpope/vim-vividchalk'
 Plugin 'wincent/command-t'
+Plugin 'scrooloose/nerdtree'

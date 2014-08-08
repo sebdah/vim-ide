@@ -64,6 +64,10 @@ syntax on
 "
 let mapleader = ','
 
+" NERDTreed shortcuts
+nnoremap <leader>d :NERDTreeToggle<CR>
+nnoremap <leader>f :NERDTreeFind<CR>
+
 "
 " Filetype fixes
 "
