@@ -25,7 +25,7 @@ touch ~/.vimrc.plugins.local
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Install all plugins
-vim -c "PluginInstall" -c "q" -c "q"
+vim +PluginInstall +qall
 
 # Build the C extension for Command T
 echo "Building the Command T C extension"
