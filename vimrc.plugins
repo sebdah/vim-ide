@@ -1,2 +1,4 @@
+Plugin 'chriskempson/base16-vim'
 Plugin 'tpope/vim-vividchalk'
 Plugin 'wincent/command-t'
+Plugin 'tomasr/molokai'
