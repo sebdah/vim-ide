@@ -1,4 +1,5 @@
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'chriskempson/base16-vim'
+Plugin 'tomasr/molokai'
 Plugin 'tpope/vim-vividchalk'
 Plugin 'wincent/command-t'
-Plugin 'tomasr/molokai'

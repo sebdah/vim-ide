@@ -1,0 +1,5 @@
+" Set the background to dark
+set background=dark
+
+" Colorscheme
+colorscheme molokai

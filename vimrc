@@ -55,20 +55,13 @@ set wildmenu                                                 " show a navigable 
 set wildmode=longest,list,full
 set mouse=a
 
+" Enable syntax highlighting
+syntax on
+
 "
 " Keyboard shortcuts
 "
 let mapleader = ','
-
-"
-" Add some colors
-"
-
-" Enable syntax highlighting
-syntax on
-
-" Set default colorscheme
-colorscheme vividchalk
 
 "
 " Filetype fixes
