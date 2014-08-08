@@ -25,7 +25,7 @@ touch ~/.vimrc.plugins.local
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Install all plugins
-vim -c "BundleInstall" -c "q" -c "q"
+vim -c "PluginInstall" -c "q" -c "q"
 
 echo "Done with the installation. Happy hacking!"
 exit 0
