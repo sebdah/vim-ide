@@ -13,9 +13,9 @@ mkdir ${backupDir}
 mv ~/.vim* ${backupDir}
 
 # Link vim files
-cp -r $(pwd)/vim ~/.vim
-cp $(pwd)/vimrc ~/.vimrc
-cp $(pwd)/vimrc.plugins ~/.vimrc.plugins
+ln -s $(pwd)/vim ~/.vim
+ln -s $(pwd)/vimrc ~/.vimrc
+ln -s $(pwd)/vimrc.plugins ~/.vimrc.plugins
 cp $(pwd)/vimrc.local ~/.vimrc.local
 touch ~/.vimrc.plugins.local
 
