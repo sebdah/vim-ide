@@ -11,7 +11,7 @@
 * vim-airline status bars (with git support)
 * Tab completion using [supertab](https://github.com/ervandew/supertab)
 * Tab completion in search field ([SearchComplete](https://github.com/vim-scripts/SearchComplete))
-* Code tag list support ([Taglist](http://vim-taglist.sourceforge.net/index.html))
+* Code tag bar support ([Tagbar](http://majutsushi.github.io/tagbar/))
 * Easy management of surrounding characters (eg. `echo "Hello world"`) using [surround](https://github.com/tpope/vim-surround)
 
 Included colorschemes:
@@ -52,13 +52,9 @@ Supported languages:
 - `ctrl + p` - Quickly find files, buffers etc using [CtrlP](https://github.com/kien/ctrlp.vim)
 - `shift + T` - Open file in new tab from the file browser
 
-#### Tag list
+#### Tag side bar
 
-- `, + T` - Toggle tag list ([Taglist](http://vim-taglist.sourceforge.net/index.html))
-- `, + Ta` - Add file(s) to the tag list ([docs](http://vim-taglist.sourceforge.net/manual.html#:TlistAddFiles))
-- `, + Tar` - Add file(s) recursively to the tag list ([docs](http://vim-taglist.sourceforge.net/manual.html#:TlistAddFilesRecursive))
-- `, + Tc` - Close the tag list ([docs](http://vim-taglist.sourceforge.net/manual.html#:TlistClose))
-- `, + To` - Open and give focus the tag list ([docs](http://vim-taglist.sourceforge.net/manual.html#:TlistClose))
+- `, + T` - Toggle tag bar ([Tagbar](http://majutsushi.github.io/tagbar/))
 
 ### Git integration
 

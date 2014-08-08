@@ -79,21 +79,11 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 "
-" Tag list configuration
+" Tagbar configuration
 "
 
 " Keybindings
-nnoremap <leader>T :TlistToggle<CR>
-nnoremap <leader>Ta :TlistAddFiles
-nnoremap <leader>Tar :TlistAddFilesRecursive
-nnoremap <leader>Tc :TlistClose
-nnoremap <leader>To :TlistOpen
-
-" Close vim if tag list is the only open window
-let Tlist_Exit_OnlyWindow = 1
-
-" Place the tag list on the right side
-let Tlist_Use_Right_Window = 1
+nmap <leader>T :TagbarToggle<CR>
 
 "
 " Filetype fixes
