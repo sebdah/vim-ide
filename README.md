@@ -9,6 +9,7 @@
 * [NERDTree](https://github.com/scrooloose/nerdtree) file browsing
 * Clear trailing whitespace
 * vim-airline status bars (with git support)
+* Tab completion using [supertab](https://github.com/ervandew/supertab)
 
 Included colorschemes:
 
