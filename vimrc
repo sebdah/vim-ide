@@ -55,11 +55,15 @@ set wildmenu                                                 " show a navigable 
 set wildmode=longest,list,full
 set mouse=a
 
+"
+" Add some colors
+"
+
 " Enable syntax highlighting
 syntax on
 
 " Set default colorscheme
-colorscheme elflord
+colorscheme vividchalk
 
 "
 " Filetype fixes
