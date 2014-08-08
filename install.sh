@@ -19,7 +19,7 @@ ln -s $(pwd)/vimrc.plugins ~/.vimrc.plugins
 
 # Create local files
 mkdir ~/.vim
-touch ~/.vimrc.plugins.local 
+touch ~/.vimrc.plugins.local
 
 # Install Vundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
@@ -32,4 +32,5 @@ echo "Building the Command T C extension"
 cd ~/.vim/bundle/command-t/ruby/command-t && ruby extconf.rb && make
 
 echo "Done with the installation. Happy hacking!"
+
 exit 0

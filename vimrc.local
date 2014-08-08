@@ -3,3 +3,12 @@ set background=dark
 
 " Colorscheme
 colorscheme molokai
+
+" Uncomment the lines below if you would like to 
+" use the solarized colorscheme.
+"
+" Please remember to configure set background=dark|light 
+" accordingly to get the appropriate solarized colorscheme
+"
+let g:solarized_termcolors=256
+colorscheme solarized
