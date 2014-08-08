@@ -10,6 +10,17 @@ Features
 * NERDTree file browsing
 * Clear trailing whitespace
 
+Included colorschemes:
+
+- Tomorrow
+- Tomorrow-Night
+- Tomorrow-Night-Blue
+- Tomorrow-Night-Bright
+- Tomorrow-Night-Eighties
+- molokai
+- solarized (dark and light)
+- vividchalk
+
 Supported languages:
 
 * Markdown
