@@ -1,9 +1,10 @@
 # vim-ide
 
+<img src="images/screenshot.png">
+
 ## Features
 
 * Code completion
-* Many colorschemes
 * Git integration using [fugitive](https://github.com/tpope/vim-fugitive)
 * [NERDTree](https://github.com/scrooloose/nerdtree) file browsing
 * Quickly find files, buffers etc using [CtrlP](https://github.com/kien/ctrlp.vim)
