@@ -24,6 +24,7 @@ endif
 
 " Vundle: Wrap up
 call vundle#end()
+syntax enable
 filetype plugin indent on
 
 "
@@ -55,9 +56,6 @@ set wildignore=log/**,node_modules/**,target/**,tmp/**,*.rbc
 set wildmenu                                                 " show a navigable menu for tab completion
 set wildmode=longest,list,full
 set mouse=a
-
-" Enable syntax highlighting
-syntax on
 
 "
 " Keyboard shortcuts

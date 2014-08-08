@@ -61,3 +61,7 @@ Git integration is provided via the [fugitive](https://github.com/tpope/vim-fugi
 
     :Gdiff
 
+### CoffeeScript
+
+Vinter supports CoffeeScript syntax, compiling, linting and indenting (via [vim-coffee-script](https://github.com/kchmck/vim-coffee-script)). Check their [documentation](https://github.com/kchmck/vim-coffee-script) for details on how to compile and lint your code.
+
