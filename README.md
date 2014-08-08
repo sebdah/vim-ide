@@ -9,6 +9,7 @@
 * [NERDTree](https://github.com/scrooloose/nerdtree) file browsing
 * Quickly find files, buffers etc using [CtrlP](https://github.com/kien/ctrlp.vim)
 * Clear trailing whitespace
+* Syntax validation provided by [syntastic](https://github.com/scrooloose/syntastic)
 * vim-airline status bars (with git support)
 * Tab completion using [supertab](https://github.com/ervandew/supertab)
 * Tab completion in search field ([SearchComplete](https://github.com/vim-scripts/SearchComplete))
@@ -82,6 +83,19 @@ Git integration is provided via the [fugitive](https://github.com/tpope/vim-fugi
 ### CoffeeScript
 
 Vinter supports CoffeeScript syntax, compiling, linting and indenting (via [vim-coffee-script](https://github.com/kchmck/vim-coffee-script)). Check their [documentation](https://github.com/kchmck/vim-coffee-script) for details on how to compile and lint your code.
+
+### Syntax validation
+
+All syntax validation is done via [syntastic](https://github.com/scrooloose/syntastic). It is enabled by default. All you will need to ensure is that you have the checkers for the language that you want to validate installed. E.g. if you want to use JSHint for JavaScript, then you must install JSHint on you system.
+
+To check whether Syntastic has found appropriate validators for the current file type `:SyntasticInfo`. It will output something like:
+
+    Syntastic version: 3.4.0-117
+    Info for filetype: javascript
+    Mode: active
+    Filetype javascript is active
+    Available checker: jshint
+    Currently enabled checker: jshint
 
 ### Surround
 
