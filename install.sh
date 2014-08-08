@@ -32,14 +32,12 @@ fi
 # Install Vundle
 if [ -d ~/.vim/bundle/Vundle.vim ] ; then
     cd ~/.vim/bundle/Vundle.vim ; git pull ; cd -
-    vim +PluginClear +qall
-    vim +PluginInstall +qall
 else
     git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-    vim +PluginInstall +qall
 fi
 
 # Install all plugins
+vim +PluginInstall +qall
 
 # Build the C extension for Command T
 echo "Building the Command T C extension"
