@@ -1,4 +1,20 @@
 vim-ide
 =======
 
-Vim IDE setup
+Features
+--------
+
+* Code completion
+* Command T for project file search
+* Many colorschemes
+* NERDTree file browsing
+* Clear trailing whitespace
+
+Supported languages:
+
+* Markdown
+* Node.js
+  - JSHint
+* Python
+  - Pylint
+
