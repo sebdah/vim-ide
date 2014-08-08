@@ -4,10 +4,10 @@ set background=dark
 " Colorscheme
 colorscheme molokai
 
-" Uncomment the lines below if you would like to 
+" Uncomment the lines below if you would like to
 " use the solarized colorscheme.
 "
-" Please remember to configure set background=dark|light 
+" Please remember to configure set background=dark|light
 " accordingly to get the appropriate solarized colorscheme
 "
 "let g:solarized_termcolors=256
@@ -15,4 +15,12 @@ colorscheme molokai
 
 " Remove trailing white spaces on :w
 autocmd BufWritePre * :%s/\s\+$//e
+
+" vim-airline configuration
+let g:airline#extensions#tabline#enabled = 1
+
+" Enable vim-airline powerline fonts
+" Please follow the instructions below before enabling:
+" https://github.com/bling/vim-airline#integrating-with-powerline-fonts
+" let g:airline_powerline_fonts = 1
 

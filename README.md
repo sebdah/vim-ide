@@ -9,6 +9,7 @@ Features
 * Many colorschemes
 * [NERDTree](https://github.com/scrooloose/nerdtree) file browsing
 * Clear trailing whitespace
+* vim-airline status bars (with git support)
 
 Included colorschemes:
 
