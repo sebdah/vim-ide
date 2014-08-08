@@ -18,3 +18,10 @@ Supported languages:
 * Python
   - Pylint
 
+Requirements
+------------
+
+- git
+- ruby
+- gcc
+
