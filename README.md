@@ -44,11 +44,18 @@ Supported languages:
 
 ### Shortcuts
 
+#### File browsing
+
 - `, + d` - Open the file browser side bar (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `, + f` - Show the current file in the file browser (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `, + t` - Quick file opening (via [Command T](https://github.com/wincent/Command-T))
-- `, + p` - Toggle tag list ([Taglist](http://vim-taglist.sourceforge.net/index.html))
 - `shift + T` - Open file in new tab from the file browser
+
+#### Tag list
+
+- `, + T` - Toggle tag list ([Taglist](http://vim-taglist.sourceforge.net/index.html))
+- `, + Ta` - Add file(s) to the tag list ([docs](http://vim-taglist.sourceforge.net/manual.html#:TlistAddFiles))
+- `, + Tar` - Add file(s) recursively to the tag list ([docs](http://vim-taglist.sourceforge.net/manual.html#:TlistAddFilesRecursive))
 
 ### Git integration
 

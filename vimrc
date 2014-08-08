@@ -83,7 +83,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 "
 
 " Keybindings
-nnoremap <leader>p :TlistToggle<CR>
+nnoremap <leader>T :TlistToggle<CR>
+nnoremap <leader>Ta :TlistAddFiles
+nnoremap <leader>Tar :TlistAddFilesRecursive
 
 " Close vim if tag list is the only open window
 let Tlist_Exit_OnlyWindow = 1
