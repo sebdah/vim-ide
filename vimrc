@@ -56,6 +56,11 @@ set wildmode=longest,list,full
 set mouse=a
 
 "
+" Keyboard shortcuts
+"
+let mapleader = ','
+
+"
 " Add some colors
 "
 
