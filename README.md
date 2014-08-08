@@ -7,6 +7,7 @@ Features
 * Code completion
 * [Command T](https://github.com/wincent/Command-T) for project file search
 * Many colorschemes
+* Git integration using [fugitive](https://github.com/tpope/vim-fugitive)
 * [NERDTree](https://github.com/scrooloose/nerdtree) file browsing
 * Clear trailing whitespace
 * vim-airline status bars (with git support)
