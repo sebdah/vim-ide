@@ -1,5 +1,4 @@
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'chriskempson/base16-vim'
 Plugin 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
 Plugin 'tomasr/molokai'
 Plugin 'tpope/vim-vividchalk'
