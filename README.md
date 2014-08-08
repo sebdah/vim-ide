@@ -1,8 +1,6 @@
-vim-ide
-=======
+# vim-ide
 
-Features
---------
+## Features
 
 * Code completion
 * [Command T](https://github.com/wincent/Command-T) for project file search
@@ -31,17 +29,34 @@ Supported languages:
 * Python
   - Pylint
 
-Requirements
-------------
+## Requirements
 
 - `git`
 - `ruby`
 - `gcc`
 
-Shortcuts
----------
+## Usage
+
+### Shortcuts
 
 - `, + d` - Open the file browser side bar (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `, + f` - Show the current file in the file browser (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `, + t` - Quick file opening (via [Command T](https://github.com/wincent/Command-T))
+
+### Git integration
+
+Git integration is provided via the [fugitive](https://github.com/tpope/vim-fugitive) plugin. All commands are expressed like this: `:G<git command>`. Below are some common examples.
+
+**Status**
+
+    :Gstatus
+
+**Commit (all)**
+
+    :Gcommit
+    :Gcommit -a
+
+**Diff**
+
+    :Gdiff
 
