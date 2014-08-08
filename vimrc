@@ -70,13 +70,6 @@ let mapleader = ','
 nnoremap <leader>d :NERDTreeToggle<CR>
 nnoremap <leader>f :NERDTreeFind<CR>
 
-"
-" Tag list configuration
-"
-
-" Keybindings
-nnoremap <leader>p :TlistToggle<CR>
-
 " Open if no specific file was opened when
 " launching vim
 autocmd StdinReadPre * let s:std_in=1
@@ -84,6 +77,19 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Close vim if NERDtree is the only opened window
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+"
+" Tag list configuration
+"
+
+" Keybindings
+nnoremap <leader>p :TlistToggle<CR>
+
+" Close vim if tag list is the only open window
+let Tlist_Exit_OnlyWindow = 1
+
+" Place the tag list on the right side
+let Tlist_Use_Right_Window = 1
 
 "
 " Filetype fixes
