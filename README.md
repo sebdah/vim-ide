@@ -3,10 +3,10 @@
 ## Features
 
 * Code completion
-* [Command T](https://github.com/wincent/Command-T) for project file search
 * Many colorschemes
 * Git integration using [fugitive](https://github.com/tpope/vim-fugitive)
 * [NERDTree](https://github.com/scrooloose/nerdtree) file browsing
+* Quickly find files, buffers etc using [CtrlP](https://github.com/kien/ctrlp.vim)
 * Clear trailing whitespace
 * vim-airline status bars (with git support)
 * Tab completion using [supertab](https://github.com/ervandew/supertab)
@@ -49,7 +49,7 @@ Supported languages:
 
 - `, + d` - Open the file browser side bar (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `, + f` - Show the current file in the file browser (via [NERDTree](https://github.com/scrooloose/nerdtree))
-- `, + t` - Quick file opening (via [Command T](https://github.com/wincent/Command-T))
+- `ctrl + p` - Quickly find files, buffers etc using [CtrlP](https://github.com/kien/ctrlp.vim)
 - `shift + T` - Open file in new tab from the file browser
 
 #### Tag list
