@@ -12,6 +12,7 @@
 * Tab completion using [supertab](https://github.com/ervandew/supertab)
 * Tab completion in search field ([SearchComplete](https://github.com/vim-scripts/SearchComplete))
 * Code tag list support ([Taglist](http://vim-taglist.sourceforge.net/index.html))
+* Easy management of surrounding characters (eg. `echo "Hello world"`) using [surround](https://github.com/tpope/vim-surround)
 
 Included colorschemes:
 
@@ -81,4 +82,64 @@ Git integration is provided via the [fugitive](https://github.com/tpope/vim-fugi
 ### CoffeeScript
 
 Vinter supports CoffeeScript syntax, compiling, linting and indenting (via [vim-coffee-script](https://github.com/kchmck/vim-coffee-script)). Check their [documentation](https://github.com/kchmck/vim-coffee-script) for details on how to compile and lint your code.
+
+### Surround
+
+You can use any command from the [vim-surround](https://github.com/tpope/vim-surround) package. For example:
+
+#### Change surrounding charaters
+
+You can change surrounding characters with the `cs` command.
+
+**Example**
+
+Replace the `"` with `'` in this string by typing `cs"'`:
+
+    echo "Hello world"
+
+Becomes
+
+    echo 'Hello world'
+
+#### Delete surrounding characters
+
+You can delete surrounding characters with the `ds` command.
+
+**Example**
+
+Delete `"` by typing `ds"`:
+
+    echo "Hello world"
+
+Becomes
+
+    echo Hello world
+
+#### Surround a specific word
+
+You can add surroundings to a specific word with the `ysiw` command.
+
+**Example**
+
+Add `[` around `Hello` by moving the cursor to `Hello` and the type `ysiw[`:
+
+    echo Hello world
+
+Becomes
+
+    echo [ Hello ] world
+
+#### Surround a whole line
+
+You can change the surrounding on a whole line with the `yss` command.
+
+**Example**
+
+Add `{` around a line by typing `yss{`
+
+    echo "Hello world"
+
+Becomes
+
+    { echo "Hello world" }
 
