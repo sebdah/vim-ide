@@ -10,5 +10,5 @@ colorscheme molokai
 " Please remember to configure set background=dark|light 
 " accordingly to get the appropriate solarized colorscheme
 "
-let g:solarized_termcolors=256
-colorscheme solarized
+"let g:solarized_termcolors=256
+"colorscheme solarized
