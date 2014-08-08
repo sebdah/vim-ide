@@ -86,6 +86,13 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 nmap <leader>T :TagbarToggle<CR>
 
 "
+" neocomplcache configuration
+"
+
+" Enable neocomplcache on start
+let g:neocomplcache_enable_at_startup = 1
+
+"
 " Filetype fixes
 "
 
