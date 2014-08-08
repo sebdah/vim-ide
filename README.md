@@ -10,6 +10,7 @@
 * Clear trailing whitespace
 * vim-airline status bars (with git support)
 * Tab completion using [supertab](https://github.com/ervandew/supertab)
+* Tab completion in search field ([SearchComplete](https://github.com/vim-scripts/SearchComplete))
 
 Included colorschemes:
 
