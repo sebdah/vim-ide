@@ -46,9 +46,11 @@ set laststatus=2                                             " always show statu
 set list                                                     " show trailing whitespace
 set listchars=tab:▸\ ,trail:▫
 set mouse=a
-set number                                                   " show line numbers'
+set number                                                   " show line numbers
+set nobackup                                                 " don't create backup files
 set noerrorbells                                             " turn off error beeps
 set nospell                                                  " disable spell check
+set noswapfile                                               " don't create swap files
 set ruler                                                    " show where you are
 set scrolloff=3                                              " show context above/below cursorline
 set shiftwidth=2                                             " normal mode indentation commands use 2 spaces
