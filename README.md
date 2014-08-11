@@ -62,8 +62,8 @@ The following `npm` modules are not required but recommended for linting support
 
 #### Buffers
 
-- `Shift + Left arrow key` - Go to previous buffer
-- `Shift + Right arrow key` - Go to next buffer
+- `Shift + Left arrow` - Go to previous buffer
+- `Shift + Right arrow` - Go to next buffer
 
 #### Tag side bar
 
