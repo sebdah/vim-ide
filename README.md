@@ -109,6 +109,13 @@ Git integration is provided via the [fugitive](https://github.com/tpope/vim-fugi
 
 Open the status window and then press `-` on each file you want to add.
 
+### Commenting code with NERDCommenter
+
+Commenting of code is done via [NERDCommenter](https://github.com/scrooloose/nerdcommenter). You can read detailed documentation on how to comment code with the plugin [here](https://github.com/scrooloose/nerdcommenter#usage).
+
+- `,cc` - Comment the current line (or visual mode selection)
+- `,c ` (`, + c + <space>`) - Toggle commenting on the current line (or visual mode selection)
+
 ### CoffeeScript
 
 vim-ide supports CoffeeScript syntax, compiling, linting and indenting (via [vim-coffee-script](https://github.com/kchmck/vim-coffee-script)). Check the project [documentation](https://github.com/kchmck/vim-coffee-script) for details on how to compile and lint your code.
