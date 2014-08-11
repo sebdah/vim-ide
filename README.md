@@ -36,6 +36,8 @@ Included color schemes:
 - solarized (dark and light)
 - vividchalk
 
+To maximize the coolness, make sure that your terminal emulator sports the same color scheme!
+
 ## Requirements
 
 - `vim` (7.4 or above)
