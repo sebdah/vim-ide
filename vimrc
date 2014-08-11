@@ -94,6 +94,14 @@ let NERDTreeIgnore=['\~$', '*\.pyc$', '^\.DS_Store$', '^node_modules$']
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 "
+" emmet-vim configuration
+"
+
+" Only enable emmet for HTML and CSS files
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+
+"
 " Tagbar configuration
 "
 

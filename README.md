@@ -16,11 +16,14 @@
 - Code tag bar support ([Tagbar](http://majutsushi.github.io/tagbar/))
 - Show git changes in the gutter ([gitgutter](https://github.com/airblade/vim-gitgutter))
 - Support for Python virtualenvs ([vim-virtualenv](https://github.com/jmcantrell/vim-virtualenv))
+- [Emmet.io] support via [emmet-vim](https://github.com/mattn/emmet-vim/)
 - Easy management of surrounding characters (eg. `echo "Hello world"`) using [surround](https://github.com/tpope/vim-surround)
 
 Supported languages:
 
 - CoffeeScript
+- CSS
+- HTML
 - Jade
 - JavaScript
 - Markdown
@@ -109,6 +112,27 @@ Open the status window and then press `-` on each file you want to add.
 ### CoffeeScript
 
 vim-ide supports CoffeeScript syntax, compiling, linting and indenting (via [vim-coffee-script](https://github.com/kchmck/vim-coffee-script)). Check the project [documentation](https://github.com/kchmck/vim-coffee-script) for details on how to compile and lint your code.
+
+### HTML / CSS editing with Emmet
+
+vim-ide uses the [emmet-vim](https://github.com/mattn/emmet-vim/) default leader key `ctrl + y`. Please note that emmet is only enabled for HTML and CSS files.
+
+To expand HTML use `ctrl + y + ,`. Consider that you have typed the followin (`_` represents the cursor):
+
+    html:5_
+
+Then type `ctrl + y + ,`
+
+    <!DOCTYPE HTML>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        _
+    </body>
+    </html>
 
 ### Syntax validation
 
