@@ -55,6 +55,11 @@ Included color schemes:
 - `ctrl + p` - Quickly find files, buffers etc using [CtrlP](https://github.com/kien/ctrlp.vim)
 - `shift + T` - Open file in new tab from the file browser
 
+#### Buffers
+
+- `Shift + Left arrow key` - Go to previous buffer
+- `Shift + Right arrow key` - Go to next buffer
+
 #### Tag side bar
 
 - `, + T` - Toggle tag bar ([Tagbar](http://majutsushi.github.io/tagbar/))
