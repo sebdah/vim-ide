@@ -44,6 +44,11 @@ Included color schemes:
 - `gcc`
 - `ctags` (if you're on a Mac, install `ctags` via [Homebrew](http://brew.sh/))
 
+The following `npm` modules are not required but recommended for linting support via syntastic.
+
+- `jshint`
+- `jsonlint`
+
 ## Usage
 
 ### Shortcuts
