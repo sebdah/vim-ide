@@ -24,3 +24,6 @@ let g:airline#extensions#tabline#enabled = 1
 " https://github.com/bling/vim-airline#integrating-with-powerline-fonts
 " let g:airline_powerline_fonts = 1
 
+" Enable SCSS highlighting on *.css files
+"au BufRead,BufNewFile *.scss set filetype=scss.css
+
