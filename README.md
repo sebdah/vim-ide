@@ -90,6 +90,10 @@ Git integration is provided via the [fugitive](https://github.com/tpope/vim-fugi
 
     :Gpush origin master
 
+**Adding files**
+
+Open the status window and then press `-` on each file you want to add.
+
 ### CoffeeScript
 
 vim-ide supports CoffeeScript syntax, compiling, linting and indenting (via [vim-coffee-script](https://github.com/kchmck/vim-coffee-script)). Check the project [documentation](https://github.com/kchmck/vim-coffee-script) for details on how to compile and lint your code.
