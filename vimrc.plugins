@@ -3,6 +3,7 @@ Plugin 'Shougo/neocomplcache.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
+Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
 Plugin 'digitaltoad/vim-jade'
 Plugin 'elzr/vim-json'

@@ -32,6 +32,7 @@ Supported languages:
    - pep8
    - flakes
    - mccabe
+- SCSS (Sassy CSS)
 - Stylus
 
 Included color schemes:
