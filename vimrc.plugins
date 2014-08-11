@@ -3,6 +3,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 Plugin 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
+Plugin 'elzr/vim-json'
 Plugin 'ervandew/supertab'
 Plugin 'jmcantrell/vim-virtualenv'
 Plugin 'kchmck/vim-coffee-script'
