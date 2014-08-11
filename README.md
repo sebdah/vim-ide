@@ -4,26 +4,35 @@
 
 ## Features
 
-* Code completion with [neocomplcache](https://github.com/Shougo/neocomplcache.vim)
-* Git integration using [fugitive](https://github.com/tpope/vim-fugitive)
-* [NERDTree](https://github.com/scrooloose/nerdtree) file browsing
-* Quickly find files, buffers etc using [CtrlP](https://github.com/kien/ctrlp.vim)
-* Clear trailing whitespace
-* Syntax validation provided by [syntastic](https://github.com/scrooloose/syntastic)
-* vim-airline status bars (with git support)
-* Tab completion using [supertab](https://github.com/ervandew/supertab)
-* Tab completion in search field ([SearchComplete](https://github.com/vim-scripts/SearchComplete))
-* Code tag bar support ([Tagbar](http://majutsushi.github.io/tagbar/))
-* Show git changes in the gutter ([gitgutter](https://github.com/airblade/vim-gitgutter))
-* Support for Python virtualenvs ([vim-virtualenv](https://github.com/jmcantrell/vim-virtualenv))
-* Easy management of surrounding characters (eg. `echo "Hello world"`) using [surround](https://github.com/tpope/vim-surround)
-* Python support (version >=2.6 and >=3.2), including:
+- Code completion with [neocomplcache](https://github.com/Shougo/neocomplcache.vim)
+- Git integration using [fugitive](https://github.com/tpope/vim-fugitive)
+- [NERDTree](https://github.com/scrooloose/nerdtree) file browsing
+- Quickly find files, buffers etc using [CtrlP](https://github.com/kien/ctrlp.vim)
+- Clear trailing whitespace
+- Syntax validation provided by [syntastic](https://github.com/scrooloose/syntastic)
+- vim-airline status bars (with git support)
+- Tab completion using [supertab](https://github.com/ervandew/supertab)
+- Tab completion in search field ([SearchComplete](https://github.com/vim-scripts/SearchComplete))
+- Code tag bar support ([Tagbar](http://majutsushi.github.io/tagbar/))
+- Show git changes in the gutter ([gitgutter](https://github.com/airblade/vim-gitgutter))
+- Support for Python virtualenvs ([vim-virtualenv](https://github.com/jmcantrell/vim-virtualenv))
+- Easy management of surrounding characters (eg. `echo "Hello world"`) using [surround](https://github.com/tpope/vim-surround)
+
+Supported languages:
+
+- CoffeeScript
+- Jade
+- JavaScript
+- Markdown
+- PowerShell
+- Python support (version >=2.6 and >=3.2), including:
    - rope
    - pydoc
    - pylint
    - pep8
    - flakes
    - mccabe
+- Stylus
 
 Included color schemes:
 
