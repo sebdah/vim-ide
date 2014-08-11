@@ -182,35 +182,6 @@ Becomes
 
     { echo "Hello world" }
 
-## Attribution - Vim plugins used
-
-This whole setup is heavily dependent on the independent contribution from the fantastic plugins below.
-
-- [airline](https://github.com/bling/vim-airline)
-- [coffee-script](https://github.com/kchmck/vim-coffee-script)
-- [colors-solarized](https://github.com/altercation/vim-colors-solarized)
-- [command-t](https://github.com/wincent/command-t)
-- [ctrlp](https://github.com/kien/ctrlp.vim)
-- [fugitive](https://github.com/tpope/vim-fugitive)
-- [gutter](https://github.com/airblade/vim-gitgutter)
-- [jade](https://github.com/digitaltoad/vim-jade)
-- [javascript](https://github.com/pangloss/vim-javascript)
-- [json](https://github.com/elzr/vim-json)
-- [neocomplcache](https://github.com/Shougo/neocomplcache.vim)
-- [nerdtree](https://github.com/scrooloose/nerdtree)
-- [ps1](https://github.com/PProvost/vim-ps1)
-- [python-mode](https://github.com/klen/python-mode)
-- [repeat](https://github.com/tpope/vim-repeat)
-- [searchcomplete](https://github.com/vim-scripts/SearchComplete)
-- [stylus](https://github.com/wavded/vim-stylus)
-- [supertab](https://github.com/ervandew/supertab)
-- [surround](https://github.com/tpope/vim-surround)
-- [syntastic](https://github.com/scrooloose/syntastic)
-- [tagbar](https://github.com/majutsushi/tagbar)
-- [tomorrow-theme](https://github.com/chriskempson/tomorrow-theme)
-- [virtualenv](https://github.com/jmcantrell/vim-virtualenv)
-- [vividchalk](https://github.com/tpope/vim-vividchalk)
-
 ## Contribution
 
 Please feel free to contribute by sending pull requests or file issues in the bug tracker. All project development is done on the projects [GitHub page](https://github.com/sebdah/vim-ide).
