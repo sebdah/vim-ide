@@ -116,6 +116,13 @@ nmap <leader>T :TagbarToggle<CR>
 let g:neocomplcache_enable_at_startup = 1
 
 "
+" Python-mode configuration
+"
+
+" Disable automatic folding
+let g:pymode_folding = 0
+
+"
 " Filetype fixes
 "
 
