@@ -8,6 +8,7 @@ Plugin 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
 Plugin 'digitaltoad/vim-jade'
 Plugin 'elzr/vim-json'
 Plugin 'ervandew/supertab'
+Plugin 'gregsexton/gitv'
 Plugin 'jmcantrell/vim-virtualenv'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
