@@ -52,6 +52,7 @@ set nobackup                                                 " don't create back
 set noerrorbells                                             " turn off error beeps
 set nospell                                                  " disable spell check
 set noswapfile                                               " don't create swap files
+set relativenumber                                           " use relative numbers in side bar
 set ruler                                                    " show where you are
 set scrolloff=3                                              " show context above/below cursorline
 set shiftwidth=2                                             " normal mode indentation commands use 2 spaces
