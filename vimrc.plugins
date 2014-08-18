@@ -1,4 +1,5 @@
 Plugin 'PProvost/vim-ps1'
+Plugin 'Raimondi/delimitMate'
 Plugin 'Shougo/neocomplcache.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
