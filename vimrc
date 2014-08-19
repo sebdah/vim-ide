@@ -30,43 +30,43 @@ filetype plugin indent on
 "
 " Vim configuration
 "
-set autoindent                                               " take indent for new line from previous line
-set autoread                                                 " reload files when changed on disk, i.e. via `git checkout`
-set backspace=2                                              " Fix broken backspace in some setups
-set backupcopy=yes                                           " see :help crontab
-set clipboard=unnamed                                        " yank and paste with the system clipboard
-set completeopt-=preview                                     " don't show the scratch preview window
-set cursorline                                               " highlight current line
-set directory-=.                                             " don't store swapfiles in the current directory
-set encoding=utf-8                                           " encoding used internally
-set expandtab                                                " expand tabs to spaces
-set hidden                                                   " don't unload the buffer when abandoned
-set history=1000                                             " remember more commands and searches
-set ignorecase                                               " case-insensitive search
-set incsearch                                                " search as you type
-set laststatus=2                                             " always show statusline
-set list                                                     " show trailing whitespace
+set autoindent                                              " take indent for new line from previous line
+set autoread                                                " reload files when changed on disk, i.e. via `git checkout`
+set backspace=2                                             " Fix broken backspace in some setups
+set backupcopy=yes                                          " see :help crontab
+set clipboard=unnamed                                       " yank and paste with the system clipboard
+set completeopt-=preview                                    " don't show the scratch preview window
+set cursorline                                              " highlight current line
+set directory-=.                                            " don't store swapfiles in the current directory
+set encoding=utf-8                                          " encoding used internally
+set expandtab                                               " expand tabs to spaces
+set hidden                                                  " don't unload the buffer when abandoned
+set history=1000                                            " remember more commands and searches
+set ignorecase                                              " case-insensitive search
+set incsearch                                               " search as you type
+set laststatus=2                                            " always show statusline
+set list                                                    " show trailing whitespace
 set listchars=tab:▸\ ,trail:▫
 set mouse=a
-set number                                                   " show line numbers
-set nobackup                                                 " don't create backup files
-set noerrorbells                                             " turn off error beeps
-set nospell                                                  " disable spell check
-set noswapfile                                               " don't create swap files
+set number                                                  " show line numbers
+set nobackup                                                " don't create backup files
+set noerrorbells                                            " turn off error beeps
+set nospell                                                 " disable spell check
+set noswapfile                                              " don't create swap files
 set nowrap                                                  " disable wrapping
-set relativenumber                                           " use relative numbers in side bar
-set ruler                                                    " show where you are
-set scrolloff=3                                              " show context above/below cursorline
-set shiftwidth=2                                             " normal mode indentation commands use 2 spaces
-set showcmd                                                  " show command in status line
-set smartcase                                                " case-sensitive search if any caps
-set softtabstop=2                                            " insert mode tab and backspace use 2 spaces
-set tabstop=8                                                " actual tabs occupy 8 characters
-set title                                                    " let vim set the terminal title
-set undolevels=1000                                          " allow more undos
-set visualbell                                               " use visual bell instead of beeping
+set relativenumber                                          " use relative numbers in side bar
+set ruler                                                   " show where you are
+set scrolloff=3                                             " show context above/below cursorline
+set shiftwidth=2                                            " normal mode indentation commands use 2 spaces
+set showcmd                                                 " show command in status line
+set smartcase                                               " case-sensitive search if any caps
+set softtabstop=2                                           " insert mode tab and backspace use 2 spaces
+set tabstop=8                                               " actual tabs occupy 8 characters
+set title                                                   " let vim set the terminal title
+set undolevels=1000                                         " allow more undos
+set visualbell                                              " use visual bell instead of beeping
 set wildignore=*/log/*,*/node_modules/*,*/target/*,*/tmp/*,*.rbc,*.pyc,*.swp,*.bak
-set wildmenu                                                 " show a navigable menu for tab completion
+set wildmenu                                                " show a navigable menu for tab completion
 set wildmode=longest,list,full
 
 "
