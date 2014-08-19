@@ -125,6 +125,9 @@ let delimitMate_smart_quotes = 1
 " Enable smart brackets handling
 let delimitMate_smart_matchpairs = 1
 
+" Allow nested quoting in Python
+au FileType python let b:delimitMate_nesting_quotes = ['"',"'"]
+
 "
 " vim-json configuration
 "
