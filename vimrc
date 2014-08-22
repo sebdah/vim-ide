@@ -70,6 +70,15 @@ set wildmenu                                                " show a navigable m
 set wildmode=longest,list,full
 
 "
+" Folding
+"
+
+set foldmethod=indent                                       " folding type
+set foldnestmax=10                                          " maximum fold depth
+set nofoldenable                                            " set to display all folds
+set foldlevel=1                                             " initial foldlevel when starting editing
+
+"
 " Keyboard shortcuts
 "
 let mapleader = ','
@@ -135,6 +144,10 @@ au FileType python let b:delimitMate_nesting_quotes = ['"',"'"]
 
 " Disable concealing
 let g:vim_json_syntax_conceal = 0
+
+" Enable syntax folding for javascript files
+au FileType json setlocal foldmethod=syntax
+
 
 "
 " Tagbar configuration

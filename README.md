@@ -154,6 +154,13 @@ To check whether Syntastic has found appropriate validators for the current file
     Available checker: jshint
     Currently enabled checker: jshint
 
+### Folding
+
+All folds are expanded by default. You can use the regular vim folding commands to handle folding. E.g.
+
+- `za` - Toggle folding on one level
+- `zA` - Toggle folding, full depth (note that the default `foldnestmax` is set to `10`)
+
 ### Surround
 
 You can use any command from the [vim-surround](https://github.com/tpope/vim-surround) package. For example:
