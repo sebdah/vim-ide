@@ -90,6 +90,9 @@ nnoremap <S-Right> :bnext<CR>
 " Replace selected text with buffer
 vmap r "_dP
 
+" Close an open buffer using the bclose.vim plugin
+nnoremap <leader>w :Bclose<CR>
+
 "
 " NERDTree configuration
 "

@@ -79,6 +79,7 @@ The following `npm` modules are not required but recommended for linting support
 
 - `Shift + Left arrow` - Go to previous buffer
 - `Shift + Right arrow` - Go to next buffer
+- `, + w` - Close buffer (without closing any windows)
 
 #### Tag side bar
 
