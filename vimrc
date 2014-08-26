@@ -87,6 +87,9 @@ let mapleader = ','
 nnoremap <S-Left> :bprevious<CR>
 nnoremap <S-Right> :bnext<CR>
 
+" Replace selected text with buffer
+vmap r "_dP
+
 "
 " NERDTree configuration
 "

@@ -84,6 +84,10 @@ The following `npm` modules are not required but recommended for linting support
 
 - `, + T` - Toggle tag bar ([Tagbar](http://majutsushi.github.io/tagbar/))
 
+#### Working with text
+
+- `<select text in visual mode> + r` - The selected text will be replaced with what's in your clipboard
+
 ### Git integration
 
 Git integration is provided via the [fugitive](https://github.com/tpope/vim-fugitive) plugin. Below are some common examples.
