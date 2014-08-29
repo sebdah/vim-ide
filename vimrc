@@ -42,7 +42,6 @@ set encoding=utf-8                                          " encoding used inte
 set expandtab                                               " expand tabs to spaces
 set hidden                                                  " don't unload the buffer when abandoned
 set history=1000                                            " remember more commands and searches
-set ignorecase                                              " case-insensitive search
 set incsearch                                               " search as you type
 set laststatus=2                                            " always show statusline
 set list                                                    " show trailing whitespace
