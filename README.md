@@ -88,6 +88,11 @@ The following `npm` modules are not required but recommended for linting support
 #### Working with text
 
 - `<select text in visual mode> + r` - The selected text will be replaced with what's in your clipboard
+- `,pa` - Plexer - Add mark
+- `,pA` - Plexer - Apply changes
+- `,pc` - Plexer - Clear marks
+- `,ph` - Plexer - Hide marks
+- `,ps` - Plexer - Show marks
 
 ### Git integration
 
