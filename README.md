@@ -74,6 +74,9 @@ The following `npm` modules are not required but recommended for linting support
 - `, + f` - Show the current file in the file browser (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `ctrl + p` - Quickly find files, buffers etc using [CtrlP](https://github.com/kien/ctrlp.vim)
 - `shift + T` - Open file in new tab from the file browser
+- `ma` - Add new file/directory (must be executed in the NERDTree window)
+- `mm` - Move/rename new file/directory (must be executed in the NERDTree window)
+- `mn` - Delete file/directory (must be executed in the NERDTree window)
 
 #### Buffers
 
