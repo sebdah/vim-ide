@@ -10,6 +10,7 @@ Plugin 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
 Plugin 'digitaltoad/vim-jade'
 Plugin 'elzr/vim-json'
 Plugin 'ervandew/supertab'
+Plugin 'fatih/vim-go'
 Plugin 'gregsexton/gitv'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 Plugin 'jmcantrell/vim-virtualenv'

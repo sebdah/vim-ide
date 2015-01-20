@@ -23,6 +23,7 @@ Supported languages:
 
 - CoffeeScript
 - CSS
+- Go
 - HTML
 - Jade
 - JavaScript

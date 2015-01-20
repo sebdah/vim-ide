@@ -142,6 +142,7 @@ let delimitMate_smart_matchpairs = 1
 
 " Allow nested quoting in Python
 au FileType python let b:delimitMate_nesting_quotes = ['"',"'"]
+au FileType python let b:delimitMate_expand_cr = 0
 
 "
 " vim-json configuration
