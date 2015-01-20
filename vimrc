@@ -71,7 +71,6 @@ set wildmode=longest,list,full
 "
 " Folding
 "
-
 set foldmethod=indent                                       " folding type
 set foldnestmax=10                                          " maximum fold depth
 set nofoldenable                                            " set to display all folds
@@ -143,6 +142,15 @@ let delimitMate_smart_matchpairs = 1
 " Allow nested quoting in Python
 au FileType python let b:delimitMate_nesting_quotes = ['"',"'"]
 au FileType python let b:delimitMate_expand_cr = 0
+
+"
+" Go programming configuration
+"
+
+au FileType go let b:delimitMate_expand_space = 0
+au FileType go set noexpandtab
+au FileType go set shiftwidth=4
+au FileType go set tabstop=4
 
 "
 " vim-json configuration
