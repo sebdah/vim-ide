@@ -150,6 +150,7 @@ au FileType python let b:delimitMate_expand_cr = 0
 au FileType go let b:delimitMate_expand_space = 0
 au FileType go set noexpandtab
 au FileType go set shiftwidth=4
+au FileType go set softtabstop=4
 au FileType go set tabstop=4
 
 "
