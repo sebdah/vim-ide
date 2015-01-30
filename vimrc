@@ -144,7 +144,7 @@ au FileType python let b:delimitMate_nesting_quotes = ['"',"'"]
 au FileType python let b:delimitMate_expand_cr = 0
 
 "
-" Go programming configuration
+" Go language configuration
 "
 
 au FileType go let b:delimitMate_expand_space = 0
@@ -153,6 +153,13 @@ au FileType go set shiftwidth=4
 au FileType go set softtabstop=4
 au FileType go set tabstop=4
 au FileType go let g:go_fmt_command = "goimports"
+
+"
+" Pig language configuration
+"
+au FileType pig set shiftwidth=4
+au FileType pig set softtabstop=4
+au FileType pig set tabstop=4
 
 "
 " vim-json configuration
