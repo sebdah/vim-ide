@@ -67,6 +67,7 @@ set visualbell                                              " use visual bell in
 set wildignore=*/log/*,*/node_modules/*,*/target/*,*/tmp/*,*.rbc,*.pyc,*.swp,*.bak
 set wildmenu                                                " show a navigable menu for tab completion
 set wildmode=longest,list,full
+set shell=/bin/bash
 
 "
 " Folding
