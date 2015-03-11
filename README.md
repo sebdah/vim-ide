@@ -99,6 +99,10 @@ The following `npm` modules are not required but recommended for linting support
 - `,ph` - Plexer - Hide marks
 - `,ps` - Plexer - Show marks
 
+#### Python shortcuts
+
+- `K` - Show documentation for the marked keyword
+
 ### Git integration
 
 Git integration is provided via the [fugitive](https://github.com/tpope/vim-fugitive) plugin. Below are some common examples.
