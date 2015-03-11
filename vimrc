@@ -205,10 +205,13 @@ let g:neocomplcache_enable_at_startup = 1
 let g:pymode_folding = 0
 
 " Disable rope code completion
-let g:pymode_rope_completion = 0
-let g:pymode_rope_complete_on_dot = 0
+let g:pymode_rope_completion = 1
+let g:pymode_rope_complete_on_dot = 1
 
-"
+" Documentation
+let g:pymode_doc = 0
+let g:pymode_doc_bind = 'K'
+
 " Filetype fixes
 "
 
