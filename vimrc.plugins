@@ -1,6 +1,6 @@
 Plugin 'PProvost/vim-ps1'
 Plugin 'Raimondi/delimitMate'
-Plugin 'Shougo/neocomplcache.vim'
+Plugin 'Shougo/neocomplete.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'alfredodeza/plexer.vim'
 Plugin 'altercation/vim-colors-solarized'

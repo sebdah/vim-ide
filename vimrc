@@ -191,11 +191,11 @@ nnoremap <leader>ps :Plexer show<CR>
 nmap <leader>T :TagbarToggle<CR>
 
 "
-" neocomplcache configuration
+" Neocomplete
 "
 
-" Enable neocomplcache on start
-let g:neocomplcache_enable_at_startup = 1
+" Enable at startup
+let g:neocomplete#enable_at_startup = 1
 
 "
 " Python-mode configuration
