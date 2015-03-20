@@ -55,7 +55,7 @@ To maximize the coolness, make sure that your terminal emulator sports the same 
 
 ## Requirements
 
-- `vim` (7.4 or above)
+- `vim` (7.4 or above) compiled with lua and python3 (E.g. `brew install vim --with-lua --with-python3`)
 - `git`
 - `ruby`
 - `gcc`
