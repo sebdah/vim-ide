@@ -201,10 +201,14 @@ let g:neocomplete#enable_at_startup = 1
 " Python-mode configuration
 "
 
+" Enable auto indenting
+let g:pymode_indent = 1
+
 " Disable automatic folding
 let g:pymode_folding = 0
 
 " Disable rope code completion
+let g:pymode_rope_lookup_project = 0
 let g:pymode_rope_completion = 1
 let g:pymode_rope_complete_on_dot = 1
 
