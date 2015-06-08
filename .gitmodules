@@ -1,3 +1,3 @@
 [submodule "molokai"]
 	path = molokai
-	url = https://github.com/tomasr/molokai.git
+	url = git@github.com:tomasr/molokai.git
