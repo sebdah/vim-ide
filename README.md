@@ -37,6 +37,7 @@ Supported languages:
    - pep8
    - flakes
    - mccabe
+- Ruby
 - SCSS (Sassy CSS)
 - Stylus
 
