@@ -155,6 +155,13 @@ au FileType go set softtabstop=4
 au FileType go set tabstop=4
 au FileType go let g:go_fmt_command = "goimports"
 
+" Enable syntax highlighting per default
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+
 "
 " Pig language configuration
 "
