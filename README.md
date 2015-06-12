@@ -28,6 +28,7 @@ Supported languages:
 - Jade
 - JavaScript
 - Markdown
+- Mustache
 - Pig
 - PowerShell
 - Python support (version >=2.6 and >=3.2), including:
