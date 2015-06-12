@@ -185,6 +185,12 @@ let g:vim_json_syntax_conceal = 0
 au FileType json setlocal foldmethod=syntax
 
 "
+" Ctrl P configuration
+"
+nnoremap <c-t> :CtrlPBufTag<CR>
+nnoremap <c-T> :CtrlPBufTagAll<CR>
+
+"
 " Plexer settings
 "
 
