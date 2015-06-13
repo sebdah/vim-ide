@@ -1,39 +1,86 @@
 #!/usr/bin/env bash
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+set -eof pipefail
 
 #
-# Installation script for Vinter
+# Install script for Vinter
 #
+
+# Set global variables
+backup_dir="${HOME}/.vinter-backup.$(date +%Y%m%dT%H%M%S)"
+force_install=0
+source_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+target_dir=${HOME}
 
 echo "Installing Vinter"
 
+# Print usage information
+print_usage()
+{
+  echo "Usage: install.sh [OPTIONS]\n"
+  echo "OPTIONS:"
+  echo "--force\t\t\tForce install. Will remove your ${target_dir}/.vimrc.local file (will be backed up)"
+  echo "--help\t\t\tShow this help"
+}
+
+# Backup a file
+#
+# Args:
+# - File to backup
+backup()
+{
+  if [ ! -d ${backup_dir} ] ; then
+    mkdir -p ${backup_dir}
+  fi
+
+  if [ -e ${backup_dir}/${1} ] ; then
+    echo "Backing up ${target_dir}/${1} to ${backup_dir}/${1}"
+    mv ${target_dir}/${1} ${backup_dir}/${1}
+  fi
+}
+
+# Link files
+#
+# Args:
+# - File to link to target
+link()
+{
+  echo "Linking ${target_dir}/${1} to ${source_dir}/.${1}"
+  ln -s ${target_dir}/${1} ${source_dir}/.${1}
+}
+
+if [ ${1} -eq "--help" ] ; then
+  print_usage
+  exit 0
+elif [ ${1} -eq "--force" ] ; then
+  force_install=1
+fi
+
 # Backup local vim files
-backupDir="${HOME}/.vinter-backup.$(date +%Y%m%dT%H%M%S)"
-echo "Backing up all your old vim files to ${backupDir}"
-mkdir ${backupDir}
-mv ~/.vim* ${backupDir}
-if [ -e ${backupDir}/.vimrc.local ] ; then
-    cp ${backupDir}/.vimrc.local ~/.vimrc.local
+echo "Backing up all your old vim files to ${backup_dir}"
+backup ".vim"
+backup ".vimrc"
+backup ".vimrc.plugins"
+
+if [ ${force} -eq 1 ] ; then
+  backup ".vimrc.local"
+  backup ".vimrc.plugins.local"
 fi
 
 # Link vim files
 echo "Creating default .vim configuration files"
-ln -s ${DIR}/vimrc ~/.vimrc
-ln -s ${DIR}/vimrc.plugins ~/.vimrc.plugins
-ln -s ${DIR}/vim ~/.vim
-touch ~/.vimrc.plugins.local
-
-if [ ! -e ~/.vimrc.local ] ; then
-    echo "Creating a skeleton ~./vimrc.local file"
-    cp ${DIR}/vimrc.local ~/.vimrc.local
-fi
+rm ${target_dir}/.vimrc.local.example
+link "vim"
+link "vimrc"
+link "vimrc.plugins"
+link "vimrc.local.example"
+touch ${target_dir}/.vimrc.plugins.local
 
 # Install Vundle
-if [ -d ~/.vim/bundle/Vundle.vim ] ; then
-    cd ~/.vim/bundle/Vundle.vim ; git pull ; cd -
+if [ -d ${target_dir}/.vim/bundle/Vundle.vim ] ; then
+    cd ${target_dir}/.vim/bundle/Vundle.vim ; git pull ; cd -
 else
-    git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    git clone https://github.com/gmarik/Vundle.vim.git ${target_dir}/.vim/bundle/Vundle.vim
 fi
 
 # Install all plugins
@@ -41,7 +88,7 @@ vim +PluginInstall +qall
 
 # Build the C extension for Command T
 echo "Building the Command T C extension"
-cd ~/.vim/bundle/command-t/ruby/command-t && ruby extconf.rb && make
+cd ${target_dir}/.vim/bundle/command-t/ruby/command-t && ruby extconf.rb && make
 
 echo "Done with the installation. Happy hacking!"
 
