@@ -28,6 +28,7 @@ Supported languages:
 - Jade
 - JavaScript
 - Markdown
+- Mustache
 - Pig
 - PowerShell
 - Python support (version >=2.6 and >=3.2), including:
@@ -37,6 +38,7 @@ Supported languages:
    - pep8
    - flakes
    - mccabe
+- Ruby
 - SCSS (Sassy CSS)
 - Stylus
 
@@ -75,6 +77,8 @@ The following `npm` modules are not required but recommended for linting support
 - `, + d` - Open the file browser side bar (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `, + f` - Show the current file in the file browser (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `ctrl + p` - Quickly find files, buffers etc using [CtrlP](https://github.com/kien/ctrlp.vim)
+- `ctrl + t` - Search for a tag (e.g. classes, functions, menthods etc) using [CtrlP](https://github.com/kien/ctrlp.vim). Applies to the currently active buffer
+- `ctrl + T` - Search for a tag (e.g. classes, functions, menthods etc) using [CtrlP](https://github.com/kien/ctrlp.vim). Applies to all open buffers
 - `shift + T` - Open file in new tab from the file browser
 - `ma` - Add new file/directory (must be executed in the NERDTree window)
 - `mm` - Move/rename new file/directory (must be executed in the NERDTree window)

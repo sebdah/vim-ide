@@ -153,7 +153,19 @@ au FileType go set noexpandtab
 au FileType go set shiftwidth=4
 au FileType go set softtabstop=4
 au FileType go set tabstop=4
+
+" Run goimports when running gofmt
 au FileType go let g:go_fmt_command = "goimports"
+
+" Enable syntax highlighting per default
+au FileType go let g:go_highlight_functions = 1
+au FileType go let g:go_highlight_methods = 1
+au FileType go let g:go_highlight_structs = 1
+au FileType go let g:go_highlight_operators = 1
+au FileType go let g:go_highlight_build_constraints = 1
+
+" Open the tagbar automatically
+au FileType go let TagbarOpen
 
 "
 " Pig language configuration
@@ -171,6 +183,12 @@ let g:vim_json_syntax_conceal = 0
 
 " Enable syntax folding for javascript files
 au FileType json setlocal foldmethod=syntax
+
+"
+" Ctrl P configuration
+"
+nnoremap <c-t> :CtrlPBufTag<CR>
+nnoremap <c-T> :CtrlPBufTagAll<CR>
 
 "
 " Plexer settings
