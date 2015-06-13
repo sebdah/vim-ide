@@ -49,10 +49,9 @@ link()
   ln -s ${target_dir}/${1} ${source_dir}/.${1}
 }
 
-if [ ${1} -eq "--help" ] ; then
   print_usage
   exit 0
-elif [ ${1} -eq "--force" ] ; then
+elif [ "${1}" == "--force" ] ; then
   force_install=1
 fi
 
@@ -62,7 +61,7 @@ backup ".vim"
 backup ".vimrc"
 backup ".vimrc.plugins"
 
-if [ ${force} -eq 1 ] ; then
+if [ ${force_install} -eq 1 ] ; then
   backup ".vimrc.local"
   backup ".vimrc.plugins.local"
 fi
