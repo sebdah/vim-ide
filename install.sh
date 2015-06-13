@@ -12,15 +12,19 @@ force_install=0
 source_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 target_dir=${HOME}
 
-echo "Installing Vinter"
+###########################
+#
+# Functions
+#
+###########################
 
 # Print usage information
 print_usage()
 {
-  echo "Usage: install.sh [OPTIONS]\n"
+  echo -e "Usage: install.sh [OPTIONS]\n"
   echo "OPTIONS:"
-  echo "--force\t\t\tForce install. Will remove your ${target_dir}/.vimrc.local file (will be backed up)"
-  echo "--help\t\t\tShow this help"
+  echo -e "--force\t\tForce install. Will remove your ${target_dir}/.vimrc.local file (will be backed up)"
+  echo -e "--help\t\tShow this help"
 }
 
 # Backup a file
@@ -49,11 +53,26 @@ link()
   ln -s ${target_dir}/${1} ${source_dir}/.${1}
 }
 
+###########################
+#
+# Argument parsing
+#
+###########################
+
+if [ "${1}" == "--help" ] ; then
   print_usage
   exit 0
 elif [ "${1}" == "--force" ] ; then
   force_install=1
 fi
+
+###########################
+#
+# Main program
+#
+###########################
+
+echo "Installing Vinter"
 
 # Backup local vim files
 echo "Backing up all your old vim files to ${backup_dir}"
@@ -67,8 +86,8 @@ if [ ${force_install} -eq 1 ] ; then
 fi
 
 # Link vim files
-echo "Creating default .vim configuration files"
-rm ${target_dir}/.vimrc.local.example
+echo "Installing Vinter configuration files"
+rm ${target_dir}/.vimrc.local.example > /dev/null 2>&1
 link "vim"
 link "vimrc"
 link "vimrc.plugins"
