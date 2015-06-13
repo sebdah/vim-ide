@@ -27,6 +27,10 @@ call vundle#end()
 syntax enable
 filetype plugin indent on
 
+" Default colorscheme
+set background=dark
+colorscheme hybrid
+
 "
 " Vim configuration
 "
