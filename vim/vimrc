@@ -148,13 +148,6 @@ let delimitMate_smart_quotes = 1
 let delimitMate_smart_matchpairs = 1
 
 "
-" Pig language configuration
-"
-au FileType pig set shiftwidth=4
-au FileType pig set softtabstop=4
-au FileType pig set tabstop=4
-
-"
 " vim-json configuration
 "
 
@@ -205,6 +198,7 @@ autocmd BufRead,BufNewFile *.md set filetype=markdown
 " Read lanugage configuration
 "
 source ~/.vim/config/languages/go.vim
+source ~/.vim/config/languages/pig.vim
 source ~/.vim/config/languages/python.vim
 
 "
