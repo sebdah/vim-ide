@@ -158,6 +158,7 @@ autocmd BufRead,BufNewFile *.md set filetype=markdown
 "
 " Read plugin configuration
 "
+source ~/.vim/config/languages/ctrl-p.vim
 source ~/.vim/config/languages/delimitmate.vim
 
 "
