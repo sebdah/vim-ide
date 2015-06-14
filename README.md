@@ -118,6 +118,15 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 - `Shift + Right arrow` - Go to next buffer
 - `, + w` - Close buffer (without closing any windows)
 
+#### Split handling
+
+- `ctrl + l` - Focus the split to the right
+- `ctrl + h` - Focus the split to the left
+- `ctrl + k` - Focus the split above
+- `ctrl + j` - Focus the split below
+- `ctrl + v` - Split window vertically
+- `ctrl + h` - Split window horizontally
+
 #### Tag side bar
 
 - `, + T` - Toggle tag bar ([Tagbar](http://majutsushi.github.io/tagbar/))
