@@ -1,5 +1,7 @@
 set autoindent                                              " take indent for new line from previous line
 set autoread                                                " reload files when changed on disk, i.e. via `git checkout`
+set autowrite                                               " Write file when switching buffer
+set autowriteall                                            " Write on :quit, :edit etc
 set backspace=2                                             " Fix broken backspace in some setups
 set backupcopy=yes                                          " see :help crontab
 set clipboard=unnamed                                       " yank and paste with the system clipboard
@@ -36,6 +38,9 @@ set wildignore=*/log/*,*/node_modules/*,*/target/*,*/tmp/*,*.rbc,*.pyc,*.swp,*.b
 set wildmenu                                                " show a navigable menu for tab completion
 set wildmode=longest,list,full
 set shell=/bin/bash
+
+" Autosave buffers before leaving them them
+autocmd BufLeave * silent! :wa
 
 " Remove trailing white spaces on :w
 autocmd BufWritePre * :%s/\s\+$//e

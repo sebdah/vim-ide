@@ -16,6 +16,7 @@
 - Code tag bar support ([Tagbar](http://majutsushi.github.io/tagbar/))
 - Show git changes in the gutter ([gitgutter](https://github.com/airblade/vim-gitgutter))
 - Support for Python virtualenvs ([vim-virtualenv](https://github.com/jmcantrell/vim-virtualenv))
+- Autosave for buffers when leaving them
 - [Emmet.io] support via [emmet-vim](https://github.com/mattn/emmet-vim/)
 - Easy management of surrounding characters (eg. `echo "Hello world"`) using [surround](https://github.com/tpope/vim-surround)
 
