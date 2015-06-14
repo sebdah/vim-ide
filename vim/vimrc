@@ -126,34 +126,6 @@ let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
 
 "
-" delimitMate configuration
-"
-
-" Autoclose brackets
-let delimitMate_autoclose = 1
-
-" Expand <CR> characters
-let delimitMate_expand_cr = 2
-
-" Expand <space> characters
-let delimitMate_expand_space = 1
-
-" Try to balance brackets on the current line
-let delimitMate_balance_matchpairs = 1
-
-" Enable smart quote handling
-let delimitMate_smart_quotes = 1
-
-" Enable smart brackets handling
-let delimitMate_smart_matchpairs = 1
-
-"
-" Ctrl P configuration
-"
-nnoremap <c-t> :CtrlPBufTag<CR>
-nnoremap <c-T> :CtrlPBufTagAll<CR>
-
-"
 " Plexer settings
 "
 
@@ -162,7 +134,6 @@ nnoremap <leader>pA :Plexer apply<CR>
 nnoremap <leader>pc :Plexer clear<CR>
 nnoremap <leader>ph :Plexer hide<CR>
 nnoremap <leader>ps :Plexer show<CR>
-
 
 "
 " Tagbar configuration
