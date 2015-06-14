@@ -96,12 +96,10 @@ nnoremap <S-Right> :bnext<CR>
 " Replace selected text with buffer
 vmap r "_dP
 
-" Close an open buffer using the bclose.vim plugin
-nnoremap <leader>w :Bclose<CR>
-
 "
 " Read plugin configuration
 "
+source ~/.vim/config/plugins/bclose.vim
 source ~/.vim/config/plugins/ctrl-p.vim
 source ~/.vim/config/plugins/delimitmate.vim
 source ~/.vim/config/plugins/emmet.vim
