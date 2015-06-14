@@ -73,6 +73,9 @@ set wildmenu                                                " show a navigable m
 set wildmode=longest,list,full
 set shell=/bin/bash
 
+" Remove trailing white spaces on :w
+autocmd BufWritePre * :%s/\s\+$//e
+
 "
 " Folding
 "

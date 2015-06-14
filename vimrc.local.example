@@ -1,8 +1,5 @@
 " Set the background to dark
-set background=dark
-
-" Colorscheme
-colorscheme molokai
+" set background=dark
 
 " Uncomment the lines below if you would like to
 " use the solarized colorscheme.
@@ -12,9 +9,6 @@ colorscheme molokai
 "
 "let g:solarized_termcolors=256
 "colorscheme solarized
-
-" Remove trailing white spaces on :w
-autocmd BufWritePre * :%s/\s\+$//e
 
 " vim-airline configuration
 let g:airline#extensions#tabline#enabled = 1
