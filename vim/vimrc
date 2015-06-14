@@ -188,6 +188,7 @@ autocmd BufRead,BufNewFile *.md set filetype=markdown
 " Read lanugage configuration
 "
 source ~/.vim/config/languages/go.vim
+source ~/.vim/config/languages/json.vim
 source ~/.vim/config/languages/pig.vim
 source ~/.vim/config/languages/python.vim
 
