@@ -143,17 +143,11 @@ nnoremap <leader>ps :Plexer show<CR>
 nmap <leader>T :TagbarToggle<CR>
 
 "
-" Neocomplete
-"
-
-" Enable at startup
-let g:neocomplete#enable_at_startup = 1
-
-"
 " Read plugin configuration
 "
 source ~/.vim/config/plugins/ctrl-p.vim
 source ~/.vim/config/plugins/delimitmate.vim
+source ~/.vim/config/plugins/neocomplete.vim
 
 "
 " Read language configuration
