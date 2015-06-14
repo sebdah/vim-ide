@@ -149,12 +149,6 @@ nmap <leader>T :TagbarToggle<CR>
 " Enable at startup
 let g:neocomplete#enable_at_startup = 1
 
-" Filetype fixes
-"
-
-" .md files should be treated as Markdown
-autocmd BufRead,BufNewFile *.md set filetype=markdown
-
 "
 " Read plugin configuration
 "
