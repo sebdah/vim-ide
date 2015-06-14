@@ -166,6 +166,7 @@ source ~/.vim/config/languages/delimitmate.vim
 "
 source ~/.vim/config/languages/go.vim
 source ~/.vim/config/languages/json.vim
+source ~/.vim/config/languages/markdown.vim
 source ~/.vim/config/languages/pig.vim
 source ~/.vim/config/languages/python.vim
 
