@@ -136,18 +136,12 @@ nnoremap <leader>ph :Plexer hide<CR>
 nnoremap <leader>ps :Plexer show<CR>
 
 "
-" Tagbar configuration
-"
-
-" Keybindings
-nmap <leader>T :TagbarToggle<CR>
-
-"
 " Read plugin configuration
 "
 source ~/.vim/config/plugins/ctrl-p.vim
 source ~/.vim/config/plugins/delimitmate.vim
 source ~/.vim/config/plugins/neocomplete.vim
+source ~/.vim/config/plugins/tagbar.vim
 
 "
 " Read language configuration
