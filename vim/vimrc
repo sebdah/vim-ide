@@ -152,29 +152,6 @@ au FileType python let b:delimitMate_nesting_quotes = ['"',"'"]
 au FileType python let b:delimitMate_expand_cr = 0
 
 "
-" Go language configuration
-"
-
-au FileType go let b:delimitMate_expand_space = 0
-au FileType go set noexpandtab
-au FileType go set shiftwidth=4
-au FileType go set softtabstop=4
-au FileType go set tabstop=4
-
-" Run goimports when running gofmt
-au FileType go let g:go_fmt_command = "goimports"
-
-" Enable syntax highlighting per default
-au FileType go let g:go_highlight_functions = 1
-au FileType go let g:go_highlight_methods = 1
-au FileType go let g:go_highlight_structs = 1
-au FileType go let g:go_highlight_operators = 1
-au FileType go let g:go_highlight_build_constraints = 1
-
-" Open the tagbar automatically
-au FileType go let TagbarOpen
-
-"
 " Pig language configuration
 "
 au FileType pig set shiftwidth=4
@@ -246,6 +223,11 @@ au FileType python let g:pymode_doc_bind = 'K'
 
 " .md files should be treated as Markdown
 autocmd BufRead,BufNewFile *.md set filetype=markdown
+
+"
+" Read lanugage configuration
+"
+source ~/.vim/config/languages/go.vim
 
 "
 " Read local configuration
