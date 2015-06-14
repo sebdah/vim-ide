@@ -4,9 +4,9 @@
 
 " General configuration
 source ~/.vim/config/general/vundle.vim " Must be done first
-source ~/.vim/config/general/colorscheme.vim
 source ~/.vim/config/general/general.vim
-source ~/.vim/config/general/keyboard-shortcuts.vim
+source ~/.vim/config/general/buffers.vim
+source ~/.vim/config/general/colorscheme.vim
 source ~/.vim/config/general/folding.vim
 source ~/.vim/config/general/splits.vim
 
