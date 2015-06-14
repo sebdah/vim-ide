@@ -100,31 +100,14 @@ vmap r "_dP
 nnoremap <leader>w :Bclose<CR>
 
 "
-" NERDTree configuration
-"
-
-" Keybindings
-nnoremap <leader>d :NERDTreeToggle<CR>
-nnoremap <leader>f :NERDTreeFind<CR>
-
-" Files to ignore
-let NERDTreeIgnore=['\~$', '\.pyc$', '^\.DS_Store$', '^node_modules$']
-
-" Open if no specific file was opened when launching vim
-"autocmd StdinReadPre * let s:std_in=1
-"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
-" Close vim if NERDtree is the only opened window
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-
-"
 " Read plugin configuration
 "
 source ~/.vim/config/plugins/ctrl-p.vim
 source ~/.vim/config/plugins/delimitmate.vim
 source ~/.vim/config/plugins/emmet.vim
-source ~/.vim/config/plugins/plexer.vim
 source ~/.vim/config/plugins/neocomplete.vim
+source ~/.vim/config/plugins/nerd-tree.vim
+source ~/.vim/config/plugins/plexer.vim
 source ~/.vim/config/plugins/tagbar.vim
 
 "
