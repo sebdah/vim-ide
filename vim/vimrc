@@ -185,7 +185,12 @@ let g:neocomplete#enable_at_startup = 1
 autocmd BufRead,BufNewFile *.md set filetype=markdown
 
 "
-" Read lanugage configuration
+" Read plugin configuration
+"
+source ~/.vim/config/languages/delimitmate.vim
+
+"
+" Read language configuration
 "
 source ~/.vim/config/languages/go.vim
 source ~/.vim/config/languages/json.vim
