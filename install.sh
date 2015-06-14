@@ -37,7 +37,7 @@ backup()
 
   if [ -e ${target_dir}/${1} ] ; then
     echo "Backing up ${target_dir}/${1} to ${backup_dir}/${1}"
-    mv ${target_dir}/${1} ${backup_dir}/${1}
+    cp -r ${target_dir}/${1} ${backup_dir}/${1}
   fi
 }
 
