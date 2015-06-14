@@ -44,6 +44,7 @@ Supported languages:
 
 Included color schemes:
 
+- hybrid (default)
 - Tomorrow
 - Tomorrow-Night
 - Tomorrow-Night-Blue
@@ -67,6 +68,15 @@ The following `npm` modules are not required but recommended for linting support
 
 - `jshint`
 - `jsonlint`
+
+## Installation
+
+1. Clone the repo to your computer
+2. Run `./install.sh` from the cloned repo root dir
+3. (Optional) To get proper symbols for git etc in the status bar
+  a. Install a patched font from [powerline/fonts](https://github.com/powerline/fonts)
+  b. Set the new font as your terminal font
+  c. Enable powerline font support in `~/.vimrc.local` with `let g:airline_powerline_fonts = 1`
 
 ## File structure
 
