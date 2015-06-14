@@ -118,18 +118,11 @@ let NERDTreeIgnore=['\~$', '\.pyc$', '^\.DS_Store$', '^node_modules$']
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 "
-" emmet-vim configuration
-"
-
-" Only enable emmet for HTML and CSS files
-let g:user_emmet_install_global = 0
-autocmd FileType html,css EmmetInstall
-
-"
 " Read plugin configuration
 "
 source ~/.vim/config/plugins/ctrl-p.vim
 source ~/.vim/config/plugins/delimitmate.vim
+source ~/.vim/config/plugins/emmet.vim
 source ~/.vim/config/plugins/plexer.vim
 source ~/.vim/config/plugins/neocomplete.vim
 source ~/.vim/config/plugins/tagbar.vim
