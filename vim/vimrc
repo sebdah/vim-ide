@@ -126,20 +126,11 @@ let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
 
 "
-" Plexer settings
-"
-
-nnoremap <leader>pa :Plexer add<CR>
-nnoremap <leader>pA :Plexer apply<CR>
-nnoremap <leader>pc :Plexer clear<CR>
-nnoremap <leader>ph :Plexer hide<CR>
-nnoremap <leader>ps :Plexer show<CR>
-
-"
 " Read plugin configuration
 "
 source ~/.vim/config/plugins/ctrl-p.vim
 source ~/.vim/config/plugins/delimitmate.vim
+source ~/.vim/config/plugins/plexer.vim
 source ~/.vim/config/plugins/neocomplete.vim
 source ~/.vim/config/plugins/tagbar.vim
 
