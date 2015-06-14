@@ -5,9 +5,7 @@
 " Vundle configuration must be done first
 source ~/.vim/config/general/vundle.vim
 
-" Default colorscheme
-set background=dark
-colorscheme hybrid
+source ~/.vim/config/general/colorscheme.vim
 
 "
 " Vim configuration
