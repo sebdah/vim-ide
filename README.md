@@ -124,8 +124,8 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 - `ctrl + h` - Focus the split to the left
 - `ctrl + k` - Focus the split above
 - `ctrl + j` - Focus the split below
-- `ctrl + v` - Split window vertically
-- `ctrl + h` - Split window horizontally
+- `ctrl + shift + v` - Split window vertically
+- `ctrl + shift + h` - Split window horizontally
 
 #### Tag side bar
 
