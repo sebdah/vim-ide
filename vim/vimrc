@@ -2,16 +2,14 @@
 "
 " Do not modify this file directly, use .vimrc.local instead
 
-" Vundle configuration must be done first
-source ~/.vim/config/general/vundle.vim
+" General configuration
+source ~/.vim/config/general/vundle.vim " Must be done first
 source ~/.vim/config/general/colorscheme.vim
 source ~/.vim/config/general/general.vim
 source ~/.vim/config/general/folding.vim
 source ~/.vim/config/general/keyboard-shortcuts.vim
 
-"
 " Read plugin configuration
-"
 source ~/.vim/config/plugins/bclose.vim
 source ~/.vim/config/plugins/ctrl-p.vim
 source ~/.vim/config/plugins/delimitmate.vim
@@ -21,18 +19,14 @@ source ~/.vim/config/plugins/nerd-tree.vim
 source ~/.vim/config/plugins/plexer.vim
 source ~/.vim/config/plugins/tagbar.vim
 
-"
 " Read language configuration
-"
 source ~/.vim/config/languages/go.vim
 source ~/.vim/config/languages/json.vim
 source ~/.vim/config/languages/markdown.vim
 source ~/.vim/config/languages/pig.vim
 source ~/.vim/config/languages/python.vim
 
-"
 " Read local configuration
-"
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
