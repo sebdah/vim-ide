@@ -135,11 +135,6 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 #### Working with text
 
 - `<select text in visual mode> + r` - The selected text will be replaced with what's in your clipboard
-- `,pa` - Plexer - Add mark
-- `,pA` - Plexer - Apply changes
-- `,pc` - Plexer - Clear marks
-- `,ph` - Plexer - Hide marks
-- `,ps` - Plexer - Show marks
 
 #### Python shortcuts
 
