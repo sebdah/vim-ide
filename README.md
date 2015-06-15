@@ -136,6 +136,7 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 #### Working with text
 
 - `<select text in visual mode> + r` - The selected text will be replaced with what's in your clipboard
+- `ctrl + n` - Select word under cursor for multiple cursor editing. Press again to go to next occurrance of the word
 
 #### Python shortcuts
 
