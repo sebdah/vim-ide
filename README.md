@@ -11,6 +11,7 @@
 - Clear trailing whitespace
 - Syntax validation provided by [syntastic](https://github.com/scrooloose/syntastic)
 - vim-airline status bars (with git support)
+- Sublime like editing of multiple lines [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
 - Tab completion using [supertab](https://github.com/ervandew/supertab)
 - Tab completion in search field ([SearchComplete](https://github.com/vim-scripts/SearchComplete))
 - Code tag bar support ([Tagbar](http://majutsushi.github.io/tagbar/))
