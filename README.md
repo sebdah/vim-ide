@@ -7,7 +7,7 @@
 - Code completion with [neocomplcache](https://github.com/Shougo/neocomplcache.vim)
 - Git integration using [fugitive](https://github.com/tpope/vim-fugitive)
 - [NERDTree](https://github.com/scrooloose/nerdtree) file browsing
-- Quickly find files, buffers etc using [CtrlP](https://github.com/kien/ctrlp.vim)
+- Quickly find files, buffers etc. using [CtrlP](https://github.com/kien/ctrlp.vim)
 - Clear trailing whitespace
 - Syntax validation provided by [syntastic](https://github.com/scrooloose/syntastic)
 - vim-airline status bars (with git support)
@@ -19,7 +19,7 @@
 - Support for Python virtualenvs ([vim-virtualenv](https://github.com/jmcantrell/vim-virtualenv))
 - Autosave for buffers when leaving them
 - [Emmet.io] support via [emmet-vim](https://github.com/mattn/emmet-vim/)
-- Easy management of surrounding characters (eg. `echo "Hello world"`) using [surround](https://github.com/tpope/vim-surround)
+- Easy management of surrounding characters (e.g. `echo "Hello world"`) using [surround](https://github.com/tpope/vim-surround)
 
 Supported languages:
 
@@ -95,7 +95,7 @@ This is the general file structure for the project
   .vimrc.local
   .vimrc.plugins.local
 
-Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.plugins.local`. Those files are not touched upon reinstallation of the project.
+Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.plugins.local`. Those files are not touched upon re-installation of the project.
 
 ## Usage
 
@@ -136,7 +136,7 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 #### Working with text
 
 - `<select text in visual mode> + r` - The selected text will be replaced with what's in your clipboard
-- `ctrl + n` - Select word under cursor for multiple cursor editing. Press again to go to next occurrance of the word
+- `ctrl + n` - Select word under cursor for multiple cursor editing. Press again to go to next occurrence of the word
 
 #### Python shortcuts
 
@@ -144,7 +144,7 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 
 ### Git integration
 
-Git integration is provided via the [fugitive](https://github.com/tpope/vim-fugitive) plugin. Below are some common examples.
+Git integration is provided via the [fugitive](https://github.com/tpope/vim-fugitive) plug-in. Below are some common examples.
 
 **Status**
 
@@ -169,7 +169,7 @@ Open the status window and then press `-` on each file you want to add.
 
 ### Commenting code with NERDCommenter
 
-Commenting of code is done via [NERDCommenter](https://github.com/scrooloose/nerdcommenter). You can read detailed documentation on how to comment code with the plugin [here](https://github.com/scrooloose/nerdcommenter#usage).
+Commenting of code is done via [NERDCommenter](https://github.com/scrooloose/nerdcommenter). You can read detailed documentation on how to comment code with the plug-in [here](https://github.com/scrooloose/nerdcommenter#usage).
 
 - `,cc` - Comment the current line (or visual mode selection)
 - `,c ` (`, + c + <space>`) - Toggle commenting on the current line (or visual mode selection)
@@ -247,7 +247,7 @@ All folds are expanded by default. You can use the regular vim folding commands 
 
 You can use any command from the [vim-surround](https://github.com/tpope/vim-surround) package. For example:
 
-#### Change surrounding charaters
+#### Change surrounding characters
 
 You can change surrounding characters with the `cs` command.
 
