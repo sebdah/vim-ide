@@ -180,13 +180,11 @@ vim-ide supports CoffeeScript syntax, compiling, linting and indenting (via [vim
 
 ### HTML / CSS editing with Emmet
 
-vim-ide uses the [emmet-vim](https://github.com/mattn/emmet-vim/) default leader key `ctrl + y`. Please note that emmet is only enabled for HTML and CSS files.
-
 To expand HTML use `ctrl + y + ,`. Consider that you have typed the following (`_` represents the cursor):
 
     html:5_
 
-Then type `ctrl + y + ,`
+Then type `,e,`
 
     <!DOCTYPE HTML>
     <html lang="en">
@@ -198,6 +196,32 @@ Then type `ctrl + y + ,`
         _
     </body>
     </html>
+
+Another example with tables:
+
+    table>thead+tbody>(tr>td*2)*3
+
+Generates:
+
+    <table>
+      <thead></thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+Please note that emmet is only enabled for HTML and CSS files.
 
 ### Syntax validation
 
