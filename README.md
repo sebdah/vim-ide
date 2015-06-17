@@ -11,6 +11,7 @@
 - Clear trailing whitespace
 - Syntax validation provided by [syntastic](https://github.com/scrooloose/syntastic)
 - vim-airline status bars (with git support)
+- Sublime like editing of multiple lines [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
 - Tab completion using [supertab](https://github.com/ervandew/supertab)
 - Tab completion in search field ([SearchComplete](https://github.com/vim-scripts/SearchComplete))
 - Code tag bar support ([Tagbar](http://majutsushi.github.io/tagbar/))
@@ -124,8 +125,9 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 - `ctrl + h` - Focus the split to the left
 - `ctrl + k` - Focus the split above
 - `ctrl + j` - Focus the split below
-- `ctrl + shift + v` - Split window vertically
-- `ctrl + shift + h` - Split window horizontally
+- `,v` - Split window vertically
+- `,h` - Split window horizontally
+- `,q` - Close current split
 
 #### Tag side bar
 
@@ -134,11 +136,7 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 #### Working with text
 
 - `<select text in visual mode> + r` - The selected text will be replaced with what's in your clipboard
-- `,pa` - Plexer - Add mark
-- `,pA` - Plexer - Apply changes
-- `,pc` - Plexer - Clear marks
-- `,ph` - Plexer - Hide marks
-- `,ps` - Plexer - Show marks
+- `ctrl + n` - Select word under cursor for multiple cursor editing. Press again to go to next occurrance of the word
 
 #### Python shortcuts
 
