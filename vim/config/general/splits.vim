@@ -4,6 +4,7 @@
 
 " Create horizontal splits below the current window
 set splitbelow
+set splitright
 
 " Move between splits with ctrl+h,j,k,l
 nnoremap <C-j> <C-W><C-J>
