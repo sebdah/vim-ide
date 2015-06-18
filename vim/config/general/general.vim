@@ -58,3 +58,6 @@ autocmd BufReadPost *
   \ if &ft != 'gitcommit' && line("'\"") > 0 && line("'\"") <= line("$") |
   \   exe "normal g`\"" |
   \ endif
+
+" Autocomplete with dictionary words when spell check is on
+set complete+=kspell
