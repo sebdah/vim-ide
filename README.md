@@ -43,6 +43,7 @@ Supported languages:
 - Ruby
 - SCSS (Sassy CSS)
 - Stylus
+- Thrift
 
 Included color schemes:
 
