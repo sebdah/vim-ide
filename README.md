@@ -41,6 +41,7 @@ Supported languages:
    - flakes
    - mccabe
 - Ruby
+   - Rubocop support
 - SCSS (Sassy CSS)
 - Stylus
 - Thrift
@@ -138,6 +139,10 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 
 - `<select text in visual mode> + r` - The selected text will be replaced with what's in your clipboard
 - `ctrl + n` - Select word under cursor for multiple cursor editing. Press again to go to next occurrence of the word
+
+#### Ruby shortcuts
+
+- `,r` - Run Rubucop for the open file
 
 #### Python shortcuts
 
