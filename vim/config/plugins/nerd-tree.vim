@@ -4,6 +4,7 @@
 
 " Keybindings
 nnoremap <leader>d :NERDTreeToggle<CR>
+nnoremap <F2> :NERDTreeToggle<CR>
 nnoremap <leader>f :NERDTreeFind<CR>
 
 " Files to ignore

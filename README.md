@@ -19,6 +19,7 @@
 - Support for Python virtualenvs ([vim-virtualenv](https://github.com/jmcantrell/vim-virtualenv))
 - Autosave for buffers when leaving them
 - [Emmet.io] support via [emmet-vim](https://github.com/mattn/emmet-vim/)
+- Look up documentation in [Dash](https://kapeli.com/dash) directly from vim
 - Easy management of surrounding characters (e.g. `echo "Hello world"`) using [surround](https://github.com/tpope/vim-surround)
 
 Supported languages:
@@ -67,6 +68,7 @@ To maximize the coolness, make sure that your terminal emulator sports the same 
 - `ruby`
 - `gcc`
 - `ctags` (if you're on a Mac, install `ctags` via [Homebrew](http://brew.sh/))
+- `ag` (OS X: `brew install the_silver_searcher`)
 
 The following `npm` modules are not required but recommended for linting support via syntastic.
 
@@ -105,7 +107,7 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 
 #### File browsing
 
-- `, + d` - Open the file browser side bar (via [NERDTree](https://github.com/scrooloose/nerdtree))
+- `, + d` or `<F2>` - Open the file browser side bar (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `, + f` - Show the current file in the file browser (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `ctrl + p` - Quickly find files, buffers etc using [CtrlP](https://github.com/kien/ctrlp.vim)
 - `ctrl + t` - Search for a tag (e.g. classes, functions, menthods etc) using [CtrlP](https://github.com/kien/ctrlp.vim). Applies to the currently active buffer
@@ -133,7 +135,7 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 
 #### Tag side bar
 
-- `, + T` - Toggle tag bar ([Tagbar](http://majutsushi.github.io/tagbar/))
+- `, + T` or `<F3>` - Toggle tag bar ([Tagbar](http://majutsushi.github.io/tagbar/))
 
 #### Working with text
 
