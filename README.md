@@ -117,6 +117,12 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 - `mm` - Move/rename new file/directory (must be executed in the NERDTree window)
 - `mn` - Delete file/directory (must be executed in the NERDTree window)
 
+#### Documentation
+
+- `<F1>` - Open vim help screen
+- `<F10>` - Open [Dash](https://kapeli.com/dash) documentation for the keyword
+  under the cursor
+
 #### Buffers
 
 - `Shift + Left arrow` - Go to previous buffer
