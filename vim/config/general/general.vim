@@ -13,6 +13,7 @@ set expandtab                                               " expand tabs to spa
 set hidden                                                  " don't unload the buffer when abandoned
 set history=1000                                            " remember more commands and searches
 set incsearch                                               " search as you type
+set lazyredraw                                              " do not redraw screen when running macros
 set laststatus=2                                            " always show statusline
 set list                                                    " show trailing whitespace
 set listchars=tab:▸\ ,trail:▫
