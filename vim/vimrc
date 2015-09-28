@@ -27,11 +27,12 @@ source ~/.vim/config/languages/go.vim
 source ~/.vim/config/languages/javascript.vim
 source ~/.vim/config/languages/json.vim
 source ~/.vim/config/languages/markdown.vim
-source ~/.vim/config/languages/ruby.vim
 source ~/.vim/config/languages/pig.vim
 source ~/.vim/config/languages/python.vim
-source ~/.vim/config/languages/stylesheets.vim
 source ~/.vim/config/languages/ruby.vim
+source ~/.vim/config/languages/ruby.vim
+source ~/.vim/config/languages/stylesheets.vim
+source ~/.vim/config/languages/thrift.vim
 
 " Read local configuration
 if filereadable(expand("~/.vimrc.local"))
