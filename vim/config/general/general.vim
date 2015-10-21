@@ -31,7 +31,7 @@ set shiftwidth=2                                            " normal mode indent
 set showcmd                                                 " show command in status line
 set smartcase                                               " case-sensitive search if any caps
 set softtabstop=2                                           " insert mode tab and backspace use 2 spaces
-set tabstop=8                                               " actual tabs occupy 8 characters
+set tabstop=2                                               " actual tabs occupy 8 characters
 set title                                                   " let vim set the terminal title
 set undolevels=1000                                         " allow more undos
 set visualbell                                              " use visual bell instead of beeping
