@@ -17,6 +17,7 @@
 - Code tag bar support ([Tagbar](http://majutsushi.github.io/tagbar/))
 - Show git changes in the gutter ([gitgutter](https://github.com/airblade/vim-gitgutter))
 - Support for Python virtualenvs ([vim-virtualenv](https://github.com/jmcantrell/vim-virtualenv))
+- [EditorConfig](http://editorconfig.org/) support
 - Autosave for buffers when leaving them
 - [Emmet.io] support via [emmet-vim](https://github.com/mattn/emmet-vim/)
 - Look up documentation in [Dash](https://kapeli.com/dash) directly from vim
