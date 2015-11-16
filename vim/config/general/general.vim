@@ -41,7 +41,7 @@ set wildmode=longest,list,full
 set shell=/bin/bash
 
 " Set leader button for keyboard shortcuts
-let mapleader = ','
+let mapleader = ' '
 
 " Autosave buffers before leaving them them
 autocmd BufLeave * silent! :wa

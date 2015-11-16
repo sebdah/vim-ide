@@ -108,8 +108,8 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 
 #### File browsing
 
-- `, + d` or `<F2>` - Open the file browser side bar (via [NERDTree](https://github.com/scrooloose/nerdtree))
-- `, + f` - Show the current file in the file browser (via [NERDTree](https://github.com/scrooloose/nerdtree))
+- `<space> + d` or `<F2>` - Open the file browser side bar (via [NERDTree](https://github.com/scrooloose/nerdtree))
+- `<space> + f` - Show the current file in the file browser (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `ctrl + p` - Quickly find files, buffers etc using [CtrlP](https://github.com/kien/ctrlp.vim)
 - `ctrl + t` - Search for a tag (e.g. classes, functions, menthods etc) using [CtrlP](https://github.com/kien/ctrlp.vim). Applies to the currently active buffer
 - `ctrl + T` - Search for a tag (e.g. classes, functions, menthods etc) using [CtrlP](https://github.com/kien/ctrlp.vim). Applies to all open buffers
@@ -128,7 +128,7 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 
 - `Shift + Left arrow` - Go to previous buffer
 - `Shift + Right arrow` - Go to next buffer
-- `, + w` - Close buffer (without closing any windows)
+- `<space> + w` - Close buffer (without closing any windows)
 
 #### Split handling
 
@@ -136,13 +136,13 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 - `ctrl + h` - Focus the split to the left
 - `ctrl + k` - Focus the split above
 - `ctrl + j` - Focus the split below
-- `,v` - Split window vertically
-- `,h` - Split window horizontally
-- `,q` - Close current split
+- `<space>v` - Split window vertically
+- `<space>h` - Split window horizontally
+- `<space>q` - Close current split
 
 #### Tag side bar
 
-- `, + T` or `<F3>` - Toggle tag bar ([Tagbar](http://majutsushi.github.io/tagbar/))
+- `<space> + T` or `<F3>` - Toggle tag bar ([Tagbar](http://majutsushi.github.io/tagbar/))
 
 #### Working with text
 
@@ -151,7 +151,7 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 
 #### Ruby shortcuts
 
-- `,r` - Run Rubucop for the open file
+- `<space>r` - Run Rubucop for the open file
 
 #### Python shortcuts
 
@@ -186,8 +186,8 @@ Open the status window and then press `-` on each file you want to add.
 
 Commenting of code is done via [NERDCommenter](https://github.com/scrooloose/nerdcommenter). You can read detailed documentation on how to comment code with the plug-in [here](https://github.com/scrooloose/nerdcommenter#usage).
 
-- `,cc` - Comment the current line (or visual mode selection)
-- `,c ` (`, + c + <space>`) - Toggle commenting on the current line (or visual mode selection)
+- `<space>cc` - Comment the current line (or visual mode selection)
+- `<space>c ` (`<space> + c + <space>`) - Toggle commenting on the current line (or visual mode selection)
 
 ### CoffeeScript
 
@@ -195,11 +195,11 @@ vim-ide supports CoffeeScript syntax, compiling, linting and indenting (via [vim
 
 ### HTML / CSS editing with Emmet
 
-To expand HTML use `ctrl + y + ,`. Consider that you have typed the following (`_` represents the cursor):
+To expand HTML use `ctrl + y + <space> Consider that you have typed the following (`_` represents the cursor):
 
     html:5_
 
-Then type `,e,`
+Then type `<space>e,`
 
     <!DOCTYPE HTML>
     <html lang="en">
