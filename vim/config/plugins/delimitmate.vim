@@ -3,7 +3,7 @@
 "
 
 " Autoclose brackets
-let delimitMate_autoclose = 0
+let delimitMate_autoclose = 1
 
 " Expand <CR> characters
 let delimitMate_expand_cr = 2
