@@ -35,6 +35,7 @@ source ~/.vim/config/languages/ruby.vim
 source ~/.vim/config/languages/ruby.vim
 source ~/.vim/config/languages/stylesheets.vim
 source ~/.vim/config/languages/thrift.vim
+source ~/.vim/config/languages/typescript.vim
 source ~/.vim/config/languages/xml.vim
 
 " Read local configuration

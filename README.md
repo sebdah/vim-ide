@@ -47,6 +47,7 @@ Supported languages:
 - SCSS (Sassy CSS)
 - Stylus
 - Thrift
+- TypeScript
 
 Included color schemes:
 
