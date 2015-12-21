@@ -25,6 +25,7 @@ source ~/.vim/config/languages/apiblueprint.vim
 source ~/.vim/config/languages/coffeescript.vim
 source ~/.vim/config/languages/gitcommit.vim
 source ~/.vim/config/languages/go.vim
+source ~/.vim/config/languages/html.vim
 source ~/.vim/config/languages/jade.vim
 source ~/.vim/config/languages/javascript.vim
 source ~/.vim/config/languages/json.vim
