@@ -23,6 +23,7 @@ source ~/.vim/config/plugins/tagbar.vim
 " Read language configuration
 source ~/.vim/config/languages/apiblueprint.vim
 source ~/.vim/config/languages/coffeescript.vim
+source ~/.vim/config/languages/es6.vim
 source ~/.vim/config/languages/gitcommit.vim
 source ~/.vim/config/languages/go.vim
 source ~/.vim/config/languages/html.vim
