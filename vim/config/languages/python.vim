@@ -3,7 +3,7 @@
 "
 
 " Enable auto indenting
-au FileType python let g:pymode_indent = 1
+au FileType python let g:pymode_indent = 0
 
 " Disable automatic folding
 au FileType python let g:pymode_folding = 0
