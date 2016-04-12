@@ -35,7 +35,7 @@ set tabstop=2                                               " actual tabs occupy
 set title                                                   " let vim set the terminal title
 set undolevels=1000                                         " allow more undos
 set visualbell                                              " use visual bell instead of beeping
-set wildignore=*/log/*,*/node_modules/*,*/target/*,*/tmp/*,*.rbc,*.pyc,*.swp,*.bak
+set wildignore=*/log/*,*/node_modules/*,*/target/*,*/tmp/*,*.rbc,*.pyc,*.swp,*.bak,*/venv/*
 set wildmenu                                                " show a navigable menu for tab completion
 set wildmode=longest,list,full
 set shell=/bin/bash
