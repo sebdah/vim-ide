@@ -128,6 +128,9 @@ vim +PluginInstall +qall
 echo "Building the Command T C extension"
 cd ${target_dir}/.vim/bundle/command-t/ruby/command-t && ruby extconf.rb && make
 
+# Install ternjs dependencies
+cd ${target_dir}/.vim/bundle/tern_for_vim && npm install && cd -
+
 echo -e "\n> DONE"
 echo "Done with the installation. Happy hacking!"
 

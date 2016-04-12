@@ -39,6 +39,8 @@ source ~/.vim/config/languages/stylesheets.vim
 source ~/.vim/config/languages/thrift.vim
 source ~/.vim/config/languages/typescript.vim
 source ~/.vim/config/languages/xml.vim
+let g:syntastic_cpp_compiler = 'g++'
+let g:syntastic_cpp_compiler_options = "-std=c++11 -Wall -Wextra -Wpedantic"
 
 " Read local configuration
 if filereadable(expand("~/.vimrc.local"))
