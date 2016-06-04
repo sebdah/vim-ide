@@ -17,3 +17,6 @@ au FileType go let g:go_highlight_methods = 1
 au FileType go let g:go_highlight_structs = 1
 au FileType go let g:go_highlight_operators = 1
 au FileType go let g:go_highlight_build_constraints = 1
+
+" Fix for location list when vim-go is used together with Syntastic
+let g:go_list_type = "quickfix"
