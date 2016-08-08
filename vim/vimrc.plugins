@@ -1,6 +1,5 @@
 Plugin 'PProvost/vim-ps1'
 Plugin 'Quramy/tsuquyomi'
-Plugin 'Raimondi/delimitMate'
 Plugin 'Shougo/neocomplete.vim'
 Plugin 'Shougo/vimproc.vim'
 Plugin 'SirVer/ultisnips'
