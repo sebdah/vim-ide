@@ -8,6 +8,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
+Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'elzr/vim-json'
