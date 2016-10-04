@@ -7,6 +7,9 @@ nnoremap <leader>d :NERDTreeToggle<CR>
 nnoremap <F2> :NERDTreeToggle<CR>
 nnoremap <leader>f :NERDTreeFind<CR>
 
+let g:NERDTreeDirArrowExpandable = '▶'
+let g:NERDTreeDirArrowCollapsible = '▼'
+
 " Files to ignore
 let NERDTreeIgnore=['\~$', '\.pyc$', '^\.DS_Store$', '^node_modules$', '.git', '.ropeproject', '__pycache__']
 
