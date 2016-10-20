@@ -144,7 +144,7 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 
 #### Tag side bar
 
-- `, + T` or `<F3>` - Toggle tag bar ([Tagbar](http://majutsushi.github.io/tagbar/))
+- `<F3>` - Toggle tag bar ([Tagbar](http://majutsushi.github.io/tagbar/))
 
 #### Working with text
 
