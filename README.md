@@ -65,12 +65,13 @@ To maximize the coolness, make sure that your terminal emulator sports the same 
 
 ## Requirements
 
-- `vim` (7.4 or above) compiled with lua and python3 (E.g. `brew install vim --with-lua --with-python3`)
+- `vim` (8.0 or above) compiled with lua and python3 (E.g. `brew install vim --with-lua --with-python3`)
 - `git`
 - `ruby`
 - `gcc`
 - `ctags` (if you're on a Mac, install `ctags` via [Homebrew](http://brew.sh/))
 - `ag` (OS X: `brew install the_silver_searcher`)
+- `jedi` (`pip install jedi`)
 
 The following `npm` modules are not required but recommended for linting support via syntastic.
 

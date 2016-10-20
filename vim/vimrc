@@ -12,6 +12,7 @@ source ~/.vim/config/general/splits.vim
 
 " Read plugin configuration
 source ~/.vim/config/plugins/bclose.vim
+source ~/.vim/config/plugins/completor.vim
 source ~/.vim/config/plugins/ctrl-p.vim
 source ~/.vim/config/plugins/dash.vim
 source ~/.vim/config/plugins/emmet.vim
