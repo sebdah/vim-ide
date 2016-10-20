@@ -15,4 +15,4 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 
 " Rubocop configuration
 let g:vimrubocop_keymap = 0
-autocmd FileType ruby,eruby nmap <Leader>r :RuboCop<CR>
+autocmd FileType ruby,eruby nmap <F9> :RuboCop<CR>

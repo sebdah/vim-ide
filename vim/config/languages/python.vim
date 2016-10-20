@@ -21,4 +21,4 @@ au FileType python let g:pymode_rope_complete_on_dot = 1
 
 " Documentation
 au FileType python let g:pymode_doc = 0
-au FileType python let g:pymode_doc_bind = 'K'
+au FileType python let g:pymode_doc_bind = '<F11>'

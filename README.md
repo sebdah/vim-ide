@@ -60,6 +60,7 @@ Included color schemes:
 - molokai
 - solarized (dark and light)
 - vividchalk
+- And a lot more
 
 To maximize the coolness, make sure that your terminal emulator sports the same color scheme!
 
@@ -68,6 +69,8 @@ To maximize the coolness, make sure that your terminal emulator sports the same 
 - `vim` (8.0 or above) compiled with lua and python3 (E.g. `brew install vim --with-lua --with-python3`)
 - `git`
 - `ruby`
+- `python3`
+- `node`
 - `gcc`
 - `ctags` (if you're on a Mac, install `ctags` via [Homebrew](http://brew.sh/))
 - `ag` (OS X: `brew install the_silver_searcher`)
@@ -113,18 +116,25 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 - `, + d` or `<F2>` - Open the file browser side bar (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `, + f` - Show the current file in the file browser (via [NERDTree](https://github.com/scrooloose/nerdtree))
 - `ctrl + p` - Quickly find files, buffers etc using [CtrlP](https://github.com/kien/ctrlp.vim)
-- `ctrl + t` - Search for a tag (e.g. classes, functions, menthods etc) using [CtrlP](https://github.com/kien/ctrlp.vim). Applies to the currently active buffer
-- `ctrl + T` - Search for a tag (e.g. classes, functions, menthods etc) using [CtrlP](https://github.com/kien/ctrlp.vim). Applies to all open buffers
+- `ctrl + t` - Search for a tag (e.g. classes, functions, methods etc) using [CtrlP](https://github.com/kien/ctrlp.vim). Applies to the currently active buffer
+- `ctrl + T` - Search for a tag (e.g. classes, functions, methods etc) using [CtrlP](https://github.com/kien/ctrlp.vim). Applies to all open buffers
 - `shift + T` - Open file in new tab from the file browser
 - `ma` - Add new file/directory (must be executed in the NERDTree window)
 - `mm` - Move/rename new file/directory (must be executed in the NERDTree window)
 - `mn` - Delete file/directory (must be executed in the NERDTree window)
 
-#### Documentation
+#### Function buttons (`F*`)
 
 - `<F1>` - Open vim help screen
-- `<F10>` - Open [Dash](https://kapeli.com/dash) documentation for the keyword
+- `<F2>` - Toggle file browser sidebar
+- `<F3>` - Toggle tagbar
+- `<F4>` - Open [Dash](https://kapeli.com/dash) documentation for the keyword
   under the cursor
+- `<F9>` - Run lint check for the current language (supported languages: Go,
+  Ruby)
+- `<F10>` - Run tests for current package / file (supported languages: Go)
+- `<F11>` - Go to documentation (only Go is supported at the moment)
+- `<F12>` - Go to definition (only Go is supported at the moment)
 
 #### Buffers
 
@@ -142,22 +152,9 @@ Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.p
 - `,h` - Split window horizontally
 - `,q` - Close current split
 
-#### Tag side bar
-
-- `<F3>` - Toggle tag bar ([Tagbar](http://majutsushi.github.io/tagbar/))
-
 #### Working with text
 
-- `<select text in visual mode> + r` - The selected text will be replaced with what's in your clipboard
 - `ctrl + n` - Select word under cursor for multiple cursor editing. Press again to go to next occurrence of the word
-
-#### Ruby shortcuts
-
-- `,r` - Run Rubucop for the open file
-
-#### Python shortcuts
-
-- `K` - Show documentation for the marked keyword
 
 ### Git integration
 
