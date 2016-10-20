@@ -4,7 +4,7 @@ set autowrite                                               " Write file when sw
 set autowriteall                                            " Write on :quit, :edit etc
 set backspace=2                                             " Fix broken backspace in some setups
 set backupcopy=yes                                          " see :help crontab
-set clipboard=unnamed                                       " yank and paste with the system clipboard
+"set clipboard=unnamed                                       " yank and paste with the system clipboard
 set completeopt-=preview                                    " don't show the scratch preview window
 set cursorline                                              " highlight current line
 set directory-=.                                            " don't store swapfiles in the current directory
