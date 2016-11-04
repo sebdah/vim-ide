@@ -25,6 +25,6 @@ let g:go_list_type = "quickfix"
 au FileType go nmap <F9> :GoMetaLinter<cr>
 au FileType go nmap <F10> <Plug>(go-test)
 au FileType go nmap <F11> <Plug>(go-doc-vertical)
-au FileType go nmap <F12> <Plug>(go-def-vertical)
+au FileType go nmap <F12> <Plug>(go-def)
 au FileType go nmap <Leader>gd <Plug>(go-doc)
 au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
