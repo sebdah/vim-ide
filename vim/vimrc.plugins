@@ -1,4 +1,5 @@
 Plugin 'HerringtonDarkholme/yats.vim'
+Plugin 'MattesGroeger/vim-bookmarks'
 Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'PProvost/vim-ps1'
 Plugin 'Quramy/tsuquyomi'
