@@ -126,7 +126,7 @@ vim +PluginInstall +qall
 
 # Build the C extension for Command T
 echo "Building the Command T C extension"
-cd ${target_dir}/.vim/bundle/command-t/ruby/command-t && ruby extconf.rb && make
+cd ${target_dir}/.vim/bundle/command-t/ruby/command-t/ext/command-t && ruby extconf.rb && make
 
 # Install ternjs dependencies
 cd ${target_dir}/.vim/bundle/tern_for_vim && npm install && cd -
