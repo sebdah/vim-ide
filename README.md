@@ -94,16 +94,16 @@ The following `npm` modules are not required but recommended for linting support
 
 This is the general file structure for the project
 
-  .vim/
-    vimrc
-    vimrc.plugins
-    config/
-      plugins/
-        plugin-name.vim
-      languages/
-        language-name.vim
-  .vimrc.local
-  .vimrc.plugins.local
+    .vim/
+      vimrc
+      vimrc.plugins
+      config/
+        plugins/
+          plugin-name.vim
+        languages/
+          language-name.vim
+    .vimrc.local
+    .vimrc.plugins.local
 
 Keep all your local configuration in `~/.vimrc.local` and plugins in `~/.vimrc.plugins.local`. Those files are not touched upon re-installation of the project.
 
