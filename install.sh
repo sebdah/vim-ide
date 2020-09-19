@@ -122,7 +122,9 @@ else
 fi
 
 # Install all plugins
-vim +PluginInstall +qall
+# Note: Stdin redirection to fix the problem described at
+#  https://superuser.com/questions/336016/invoking-vi-through-find-xargs-breaks-my-terminal-why
+vim +PluginInstall +qall - </dev/null
 
 # Build the C extension for Command T
 echo "Building the Command T C extension"
